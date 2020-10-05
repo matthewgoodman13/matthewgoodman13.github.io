@@ -1,0 +1,44 @@
+.HomeContainer {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(9, 99, 202, 0.808),
+      rgba(24, 49, 194, 0.808),
+      rgba(79, 0, 168, 0.808)
+    ),
+    url(../../assets//mtlback-bw.png);
+  background-size: cover;
+
+  .homeContent {
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    box-sizing: border-box;
+  }
+
+  .wave-container {
+    position: relative;
+    bottom: -4px;
+    margin: 0;
+    padding: 0;
+  }
+
+  @keyframes animateWave {
+    0% {
+      transform: scale(1, 0);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  .wave-container > svg {
+    display: block;
+    transform-origin: bottom;
+    animation: animateWave 1000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+  }
+}
