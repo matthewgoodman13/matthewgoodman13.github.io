@@ -1,0 +1,47 @@
+.Navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background: #0099ff;
+  z-index: 2;
+
+  .bootstrapNav {
+    padding: 0;
+
+    .nav-link {
+      color: white;
+      font-family: 'Oswald-Medium';
+      padding: 8px 20px;
+
+      &.active {
+        color: #042e88;
+      }
+    }
+
+    button {
+      position: absolute;
+      right: 8px;
+      top: 12px;
+      border: none;
+      outline: none;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .bootstrapNav {
+      padding: 4px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1100px) {
+    .bootstrapNav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+
+      .nav-link {
+        padding: 8px 24px;
+      }
+    }
+  }
+}
