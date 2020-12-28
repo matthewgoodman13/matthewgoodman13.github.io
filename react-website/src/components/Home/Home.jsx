@@ -8,7 +8,7 @@ import { ChevronDown, Facebook, Github, Instagram, Linkedin } from 'react-bootst
 
 const Home = (props) => {
   return (
-    <div className="HomeContainer">
+    <div id="home" className="HomeContainer">
       <Image id="wave" src={require('./wave.svg')} />
       <Navbar />
       <DropdownProfile />

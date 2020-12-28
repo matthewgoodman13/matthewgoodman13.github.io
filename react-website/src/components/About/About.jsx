@@ -14,7 +14,8 @@ const InterestChip = ({ title, icon }) => {
 
 const About = (props) => {
   return (
-    <div id="about" className="AboutContainer">
+    <div className="AboutContainer">
+      <div id="about" className="anchor" />
       <div className="left">
         <h3>About Me</h3>
         <Image className="hockey" src={require('./icons/hockey.svg')} />
@@ -28,6 +29,7 @@ const About = (props) => {
         <div className="interestsContainer">
           <div className="interests">
             <div className="title">
+              <Image className="icon" src={require('./icons/rocket.svg')} />
               <h4>Interests & Hobbies</h4>
             </div>
             <div className="chips">
@@ -46,6 +48,8 @@ const About = (props) => {
           </div>
           <div className="interests">
             <div className="title">
+              <Image className="icon" src={require('./icons/devcloud.svg')} />
+
               <h4>Tech-y Topics I Follow</h4>
             </div>
             <div className="chips">

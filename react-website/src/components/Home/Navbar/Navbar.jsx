@@ -12,8 +12,9 @@ const NavbarComponent = (props) => {
         <Navbar.Collapse>
           <Nav className="mr-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About Me</Nav.Link>
+            {/* <Nav.Link href="#about">About Me</Nav.Link> */}
             <Nav.Link href="#education">Education</Nav.Link>
+            <Nav.Link href="#online">Online Courses</Nav.Link>
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#experience">Experience</Nav.Link>
