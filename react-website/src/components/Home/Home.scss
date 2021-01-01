@@ -84,9 +84,11 @@
 
             font-size: 25px;
           }
+          transition: 0.1s ease-in-out;
 
           &:hover {
             color: #c4ff80;
+            transform: scale(1.1);
           }
         }
       }

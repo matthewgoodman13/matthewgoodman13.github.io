@@ -39,6 +39,12 @@
       font-weight: bold;
       font-size: 16px;
 
+      transition: 0.2s ease-in-out;
+
+      &:hover {
+        transform: translateY(-4px);
+      }
+
       .quoteIcon {
         position: absolute;
         top: -14px;
@@ -144,6 +150,12 @@
   align-items: center;
   margin: 3px 4px;
   height: 26px;
+
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #ffffff;
+  }
 
   padding: 4px 16px 4px 12px;
 
