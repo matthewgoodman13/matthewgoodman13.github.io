@@ -23,6 +23,11 @@
   src: local('OpenSans'), url('./assets/fonts/OpenSans-Regular.ttf') format('truetype'); /* Super Modern Browsers */
 }
 
+@font-face {
+  font-family: 'Inconsolata';
+  src: local('Inconsolata'), url('./assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf') format('truetype'); /* Super Modern Browsers */
+}
+
 *,
 html {
   margin: 0;
@@ -35,7 +40,6 @@ body {
     'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* padding-top: 50px; */
 }
 
 code {
