@@ -7,6 +7,8 @@ import Education from './components/Education/Education';
 import OnlineCourses from './components/OnlineCourses/OnlineCourses';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
+import Experience from './components/Experience/Experience';
+import Contact from './components/Contact/Contact';
 
 const App = () => {
   return (
@@ -16,7 +18,9 @@ const App = () => {
       <Education />
       <OnlineCourses />
       <Skills />
+      <Experience />
       <Projects />
+      <Contact />
     </div>
   );
 };

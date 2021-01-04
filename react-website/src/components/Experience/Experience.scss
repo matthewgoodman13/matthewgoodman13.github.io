@@ -1,0 +1,142 @@
+.Experience {
+  //   height: 400px;
+  //   background: linear-gradient(to bottom right, darkblue, purple);
+  background: rgb(0, 0, 44);
+  color: white;
+
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 0 0 + px 0;
+
+    .title {
+      display: flex;
+      flex-direction: row;
+      border-bottom: 2px solid #ffc000;
+
+      h1 {
+        color: white;
+        font-size: 32px;
+        padding-right: 6px;
+        margin: 0 0 6px 0;
+      }
+
+      .icon {
+        height: 40px;
+        padding-right: 8px;
+      }
+    }
+  }
+
+  .timeline {
+    max-width: 1000px;
+  }
+
+  .timeline::before {
+    border-radius: 50px;
+    background-color: white;
+  }
+
+  .timelineItem {
+    .title {
+      &::before {
+        // position: absolute;
+        right: -8px;
+        width: 12px;
+        height: 12px;
+        // color: red;
+        // width: 20px;
+        // height: 20px;
+      }
+      .timeline-item-dateinner {
+        background: linear-gradient(to right, rgb(65, 65, 245), purple);
+        color: white;
+        font-size: 18px;
+      }
+    }
+
+    .body {
+      //   width: 80%;
+    }
+
+    .body-container {
+      top: -8px;
+      background-color: white;
+      padding: 20px;
+      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+      border-radius: 4px;
+
+      transition: 0.3s ease-in-out;
+      &:hover {
+        transform: translateY(-8px) scale(1.02);
+      }
+
+      .bodyContent {
+        display: flex;
+        flex-direction: column;
+
+        .titleContent {
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+          .img {
+            height: 48px;
+            margin-right: 18px;
+            border-radius: 50px;
+          }
+
+          h3 {
+            color: #51a9f1;
+            font-size: 25px;
+          }
+          h4 {
+            font-size: 20px;
+            color: #51a9f1;
+          }
+        }
+
+        .jobInfo {
+          margin-left: 20px;
+          font-family: 'Inconsolata';
+
+          li {
+            padding-bottom: 10px;
+
+            &:last-child {
+              padding-bottom: 0;
+            }
+          }
+        }
+
+        .skills {
+          position: relative;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 100%;
+
+          p {
+            display: flex;
+            flex-grow: 1;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inconsolata';
+            margin: 4px;
+            padding: 4px 12px;
+            border-radius: 4px;
+            background-color: #cecece;
+
+            &:hover {
+              background-color: #aaaaaa;
+            }
+          }
+        }
+      }
+    }
+  }
+}
