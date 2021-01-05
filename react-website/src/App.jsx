@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
+import 'animate.css/animate.min.css';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Education from './components/Education/Education';

@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './Home.scss';
 import Image from 'react-bootstrap/Image';
 import Navbar from './Navbar/Navbar';
