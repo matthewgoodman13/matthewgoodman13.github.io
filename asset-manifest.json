@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.879ac67c.chunk.css",
+    "main.css": "/static/css/main.ec11247f.chunk.css",
     "main.js": "/static/js/main.af0c9f51.chunk.js",
     "main.js.map": "/static/js/main.af0c9f51.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.39870823.js",
@@ -9,10 +9,10 @@
     "static/js/2.e638999b.chunk.js": "/static/js/2.e638999b.chunk.js",
     "static/js/2.e638999b.chunk.js.map": "/static/js/2.e638999b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.61ba3bfea2d6ba114695f8f20657f632.js": "/precache-manifest.61ba3bfea2d6ba114695f8f20657f632.js",
+    "precache-manifest.d64f89f99e660d660d82e60373f754b9.js": "/precache-manifest.d64f89f99e660d660d82e60373f754b9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.c182f604.chunk.css.map": "/static/css/2.c182f604.chunk.css.map",
-    "static/css/main.879ac67c.chunk.css.map": "/static/css/main.879ac67c.chunk.css.map",
+    "static/css/main.ec11247f.chunk.css.map": "/static/css/main.ec11247f.chunk.css.map",
     "static/js/2.e638999b.chunk.js.LICENSE.txt": "/static/js/2.e638999b.chunk.js.LICENSE.txt",
     "static/media/Home.scss": "/static/media/3d-perspective-style-diamond-shape-white-background_1017-27556.dea36fe6.jpg",
     "static/media/index.css": "/static/media/Oswald-SemiBold.c8ff3929.ttf",
@@ -62,7 +62,7 @@
     "static/js/runtime-main.39870823.js",
     "static/css/2.c182f604.chunk.css",
     "static/js/2.e638999b.chunk.js",
-    "static/css/main.879ac67c.chunk.css",
+    "static/css/main.ec11247f.chunk.css",
     "static/js/main.af0c9f51.chunk.js"
   ]
 }
