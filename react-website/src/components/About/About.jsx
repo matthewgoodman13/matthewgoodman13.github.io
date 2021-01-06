@@ -15,8 +15,7 @@ const InterestChip = ({ title, icon }) => {
 
 const About = (props) => {
   return (
-    <div className="AboutContainer">
-      <div id="about" className="anchor" />
+    <div id="about" className="AboutContainer">
       <div className="left">
         <h3>About Me</h3>
         <Image className="hockey" src={require('./icons/hockey.svg')} />

@@ -11,6 +11,7 @@ import Projects from './components/Projects/Projects';
 import Experience from './components/Experience/Experience';
 import Contact from './components/Contact/Contact';
 import CustomScrollbar from './components/CustomScrollbar/CustomScrollbar';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <Experience />
       <Projects />
       <Contact />
+      <ScrollToTop />
     </div>
   );
 };

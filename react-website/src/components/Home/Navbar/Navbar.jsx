@@ -1,21 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 
 import './Navbar.scss';
 import Scrollspy from 'react-scrollspy';
 
 const NavbarComponent = (props) => {
+  const getWidth = () => {
+    return Math.max(
+      document.body.scrollWidth,
+      document.documentElement.scrollWidth,
+      document.body.offsetWidth,
+      document.documentElement.offsetWidth,
+      document.documentElement.clientWidth
+    );
+  };
+
   const handleClick = (e) => {
     e.preventDefault();
     const clickedLink = e.target.href.split('#')[1];
     const element = document.getElementById(clickedLink);
-    const scrollToPos = element.getBoundingClientRect().top + window.pageYOffset - 44;
+    const offsetY = getWidth() > 768 ? 44 : 0;
+    const scrollToPos = element.getBoundingClientRect().top + window.pageYOffset - offsetY;
     window.scrollTo({ top: scrollToPos });
+
+    setNavCollapsed(true);
   };
+
+  const [navCollapsed, setNavCollapsed] = useState(true);
 
   return (
     <div className="Navbar">
-      <Navbar collapseOnSelect className="bootstrapNav" bg="transparent" expand="md">
+      <Navbar
+        className="bootstrapNav"
+        bg="transparent"
+        expand="md"
+        expanded={!navCollapsed}
+        onToggle={() => setNavCollapsed(!navCollapsed)}
+      >
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse>
           <Scrollspy
@@ -24,7 +45,7 @@ const NavbarComponent = (props) => {
             style={{ display: 'flex', margin: 0 }}
             items={['home', 'about', 'education', 'onlinecourses', 'skills', 'experience', 'projects', 'contact']}
             currentClassName="active"
-            offset={-44}
+            offset={getWidth() > 768 ? -44 : 0}
           >
             <a className="nav-link" href="#home" onClick={(e) => handleClick(e)}>
               Home
