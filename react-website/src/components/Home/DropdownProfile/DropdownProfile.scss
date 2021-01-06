@@ -30,7 +30,13 @@
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1220px) {
+  .DropdownProfile {
+    right: 3.5vw;
+  }
+}
+
+@media (max-width: 1150px) {
   .DropdownProfile {
     background: linear-gradient(128deg, #008fd1a9, #004a9fb4, #3a3187b9), url('./mtlback-bw.png');
     background-size: cover;

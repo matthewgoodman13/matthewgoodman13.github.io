@@ -7,7 +7,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const Skills = (props) => {
   return (
-    <div className="Skills">
+    <div id="skills" className="Skills">
       <div id="skills" className="anchor" />
       <div className="left">
         <div className="leftPanel">

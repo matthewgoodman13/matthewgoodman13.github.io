@@ -1,0 +1,68 @@
+// For Custom Scrollbar
+
+.CustomScrollbar {
+  #scrollPath {
+    z-index: 5000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 9px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  #progressbar {
+    z-index: 5000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 9px;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    animation: animate 6s linear infinite;
+    border-radius: 0 0 20px 20px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to top, #008aff, #00ffe7);
+      filter: blur(12px);
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to top, #008aff, #00ffe7);
+      filter: blur(30px);
+    }
+  }
+
+  @keyframes animate {
+    0%,
+    100% {
+      filter: hue-rotate(0deg);
+    }
+    50% {
+      filter: hue-rotate(360deg);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .CustomScrollbar {
+    #scrollPath {
+      width: 6px;
+    }
+
+    #progressbar {
+      width: 6px;
+    }
+  }
+}

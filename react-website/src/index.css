@@ -45,3 +45,30 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+*::-webkit-scrollbar {
+  display: none !important;
+  -ms-overflow-style: none !important; /* IE and Edge */
+  scrollbar-width: none !important; /* Firefox */
+  width: 0px !important;
+  background: transparent !important;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+  -ms-overflow-style: none !important; /* IE and Edge */
+  scrollbar-width: none !important; /* Firefox */
+  width: 0px !important;
+  background: transparent !important;
+  -webkit-appearance: none !important;
+}
+
+* {
+  -webkit-appearance: none !important;
+  scrollbar-width: none !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  display: none;
+}

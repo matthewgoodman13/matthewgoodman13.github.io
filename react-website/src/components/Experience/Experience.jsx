@@ -14,7 +14,7 @@ const CustomDate = (props) => {
 
 const Experience = (props) => {
   return (
-    <div className="Experience">
+    <div id="experience" className="Experience">
       <div id="experience" className="anchor"></div>
       <div className="titleContainer">
         <div className="title">

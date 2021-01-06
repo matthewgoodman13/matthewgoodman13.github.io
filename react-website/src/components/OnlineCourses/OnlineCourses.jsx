@@ -7,8 +7,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const OnlineCourses = (props) => {
   return (
-    <div className="OnlineCourses">
-      <div id="onlinecourses" className="anchor" />
+    <div id="onlinecourses" className="OnlineCourses">
       <div className="titleContainer">
         <div className="title">
           <Image className="icon" src={require('./icons/programmingwhite.svg')} />

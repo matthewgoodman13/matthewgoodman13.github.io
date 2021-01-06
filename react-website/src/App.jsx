@@ -10,10 +10,12 @@ import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Experience from './components/Experience/Experience';
 import Contact from './components/Contact/Contact';
+import CustomScrollbar from './components/CustomScrollbar/CustomScrollbar';
 
 const App = () => {
   return (
     <div className="App">
+      <CustomScrollbar />
       <Home />
       <About />
       <Education />

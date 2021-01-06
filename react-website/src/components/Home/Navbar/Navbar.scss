@@ -20,7 +20,7 @@
 
     button {
       position: absolute;
-      right: 8px;
+      right: 14px;
       top: 8px;
       border: none;
       outline: none;
@@ -50,7 +50,7 @@
     }
   }
 
-  @media (min-width: 768px) and (max-width: 1100px) {
+  @media (min-width: 768px) and (max-width: 1150px) {
     .bootstrapNav {
       display: inline-block;
       float: none;
@@ -58,6 +58,14 @@
 
       .nav-link {
         padding: 8px 24px;
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 842px) {
+    .bootstrapNav {
+      .nav-link {
+        padding: 8px 19px;
       }
     }
   }

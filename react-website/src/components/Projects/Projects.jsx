@@ -8,7 +8,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const Projects = (props) => {
   return (
-    <div className="Projects">
+    <div id="projects" className="Projects">
       <div id="projects" className="anchor"></div>
       <div className="titleContainer">
         <Image className="img" src={require('./rocket2.svg')} />
@@ -26,7 +26,7 @@ const Projects = (props) => {
                 <h3>KeepUp.space</h3>
               </div>
               <div className="subTitle">
-                <ScrollAnimation animateIn="animate__rubberBand" animateOnce delay={400}>
+                <ScrollAnimation animateIn="animate__rubberBand" delay={400}>
                   <p>Winning Hackathon Project</p>
                 </ScrollAnimation>
                 <p>* Best Education Hack *</p>
