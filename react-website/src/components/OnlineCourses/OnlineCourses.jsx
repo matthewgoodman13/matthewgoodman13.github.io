@@ -42,7 +42,7 @@ const OnlineCourses = (props) => {
                 problems more efficiently.
               </p>
               <div className="links">
-                <a href="https://courses.edx.org/certificates/17e40c7922384e7b9d038073c499ae2f" target="_blank">
+                <a href="https://courses.edx.org/certificates/1675ac3d2fe0470ab5ddb624ae5a73fa" target="_blank">
                   Certificate
                 </a>
                 <a href="https://www.edx.org/course/cs50s-introduction-to-computer-science" target="_blank">

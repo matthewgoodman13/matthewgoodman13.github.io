@@ -102,7 +102,7 @@ const Skills = (props) => {
                 <h4>Languages</h4>
               </div>
               <div className="cardContent">
-                <p>English (Native)</p>
+                <p>English</p>
                 <p>French</p>
               </div>
             </div>
