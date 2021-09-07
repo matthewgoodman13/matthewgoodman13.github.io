@@ -13,6 +13,7 @@ import Contact from './components/Contact/Contact';
 import CustomScrollbar from './components/CustomScrollbar/CustomScrollbar';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
+// Main
 const App = () => {
   return (
     <div className="App">
