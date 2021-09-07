@@ -23,7 +23,7 @@ const Experience = (props) => {
         </div>
       </div>
       <Timeline lineColor={'#fff'}>
-        <TimelineItem className="timelineItem" key="001" dateText="Summer 2021 (Upcoming)">
+        <TimelineItem className="timelineItem" key="001" dateText="June 2021 - August 2021">
           <div className="bodyContent">
             <div className="titleContent">
               <Image className="img" src={require('./Amazon_icon.png')} />
@@ -34,13 +34,27 @@ const Experience = (props) => {
             </div>
             <div className="jobInfo">
               <ul>
-                <li>Upcoming Software Development Engineer Intern at Amazon Canada.</li>
+                <li><strong>Designed</strong>, <strong>integrated</strong>, and <strong>launched</strong> an event-driven architecture allowing Cloud
+                  Map customers to receive automated events on status changes instead of
+                  customers needing to manually poll for updates</li>
+                <li>Allows customers to migrate away from Cloud Map’s throttled APIs and as a
+                  result eases Cloud Map’s API traffic</li>
               </ul>
             </div>
-            <div className="skills"></div>
+            <div className="skills">
+              <p>Amazon Web Services</p>
+              <p>AWS Lambda</p>
+              <p>AWS DynamoDB</p>
+              <p>Amazon EventBridge</p>
+              <p>Java</p>
+              <p>Mockito</p>
+              <p>Unit Testing with JUnit</p>
+              <p>Google Guice</p>
+              <p>Development Cycle</p>
+            </div>
           </div>
         </TimelineItem>
-        <TimelineItem className="timelineItem" key="002" dateText="May 2020 - Current">
+        <TimelineItem className="timelineItem" key="002" dateText="May 2020 - June 2021">
           <div className="bodyContent">
             <div className="titleContent">
               <Image className="img" src={require('./kargoroo.png')} />
@@ -54,7 +68,7 @@ const Experience = (props) => {
                 <li>
                   <strong>Built</strong> a fully functional and scalable mobile app platform{' '}
                   <strong>from the ground up</strong> as the <strong>sole developer</strong> using KargoROO’s vision of
-                  on-the-way deliveries and <strong>deployed it</strong> to the Apple and Google Play Store.
+                  on-the-way deliveries and <strong>deployed it</strong> to the Apple and Google Play Store
                 </li>
                 <li>
                   <strong>Built</strong> KargoROO’s informatic website:{' '}
@@ -63,7 +77,7 @@ const Experience = (props) => {
                   </a>
                 </li>
                 <li>
-                  <strong>Managed</strong> company technical aspects of developing their mobile app platform.
+                  <strong>Managed</strong> company technical aspects of developing their mobile app platform
                 </li>
               </ul>
             </div>

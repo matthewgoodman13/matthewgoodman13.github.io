@@ -42,23 +42,15 @@
   .timelineItem {
     .title {
       &::before {
-        // position: absolute;
         right: -8px;
         width: 12px;
         height: 12px;
-        // color: red;
-        // width: 20px;
-        // height: 20px;
       }
       .timeline-item-dateinner {
         background: linear-gradient(to right, rgb(65, 65, 245), purple);
         color: white;
         font-size: 18px;
       }
-    }
-
-    .body {
-      //   width: 80%;
     }
 
     .body-container {
