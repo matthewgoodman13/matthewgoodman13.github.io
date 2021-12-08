@@ -215,9 +215,6 @@
 
   @media (max-width: 768px) {
     .cards {
-
-      
-
       .card {
         position: relative;
         z-index: 50;
@@ -225,6 +222,8 @@
         max-width: 300px;
         flex-direction: column;
         height: auto;
+        pointer-events: none!important;
+
 
         .imgBx {
           position: relative;
@@ -245,6 +244,8 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            font-family: 'Inconsolata';
+            font-weight: bold;
 
             .hours {
               padding-bottom: 6px;
@@ -286,9 +287,18 @@
 
           .links {
             position: relative;
-            // z-index: 50;
             justify-content: center;
+            pointer-events: visible!important;
           }
+        }
+      }
+      .card:hover {
+        .imgBx {
+          width: 100%;
+          height: auto;
+          left: 0;
+          top: 0;
+          box-shadow: none;       
         }
       }
     }

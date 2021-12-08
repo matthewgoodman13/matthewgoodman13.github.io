@@ -47,13 +47,14 @@ const Education = (props) => {
                     <p>COMP303: Software Design</p>
                     <p>COMP302: Progr. Languages & Paradigms</p>
                     <p>COMP307: Principles of Web Development</p>
-                    <p>MATH223: Linear Algebra</p>
-                    <p>MATH240: Discrete Structures</p>
-                    <hr />
                     <p>COMP310: Operating Systems</p>
                     <p>COMP360: Algorithm Design</p>
                     <p>COMP361: Software Eng. Design Project</p>
-                    <p>MATH323: Probability</p>
+                    <p>COMP396: CANOSP Open Source Project</p>
+                    <p>COMP598: Introduction to Data Science</p>
+                    <hr />
+                    <p>COMP421: Database Systems</p>
+                    <p>COMP322: Introduction to C++</p>
                   </div>
                 </div>
               </div>

@@ -14,31 +14,80 @@ const Skills = (props) => {
           <ScrollAnimation animateIn="animate__flipInX" animateOnce>
             <div className="skillCard">
               <div className="cardTitle">
-                <h4>Technical Skills</h4>
+                <h4>Experience Using</h4>
               </div>
               <div className="cardContent">
-                <div className="skillContainer">
+                {/* <div className="skillContainer">
                   <h5>Full Stack Development</h5>
                   <p>MERN Stack</p>
                   <ProgressBar now={75} className="purple" />
-                </div>
+                </div> */}
                 <div className="skillContainer">
                   <h5>Frontend Development</h5>
-                  <p>
-                    ReactJS, Redux, Ionic Framework, Bootstrap, SemanticUI, UI/UX Design, HTML/CSS, SCSS, Google Maps
+                  {/* <p>
+                    ReactJS, Redux, Ionic Framework, Bootstrap, SemanticUI, UI/UX Design, JavaScript ES6, HTML/CSS, SCSS, LessCSS, Google Maps
                     API
-                  </p>
-                  <ProgressBar now={80} className="lightblue" />
+                  </p> */}
+                  <div className="skill-pill-bar">
+                    <p className="skill-pill lightblue">ReactJS</p>
+                    <p className="skill-pill lightblue">Redux</p>
+                    <p className="skill-pill lightblue">Ionic Framework</p>
+                    <p className="skill-pill lightblue">Bootstrap</p>
+                    <p className="skill-pill lightblue">SemanticUI</p>
+                    <p className="skill-pill lightblue">UI/UX Design</p>
+                    <p className="skill-pill lightblue">JavaScript ES6</p>
+                    <p className="skill-pill lightblue">BackboneJS</p>
+                    <p className="skill-pill lightblue">HTML</p>
+                    <p className="skill-pill lightblue">JQuery</p>
+                    <p className="skill-pill lightblue">CSS</p>
+                    <p className="skill-pill lightblue">SCSS</p>
+                    <p className="skill-pill lightblue">LessCSS</p> 
+                    <p className="skill-pill lightblue">Google Maps API</p>
+                  </div>
+                  {/* <ProgressBar now={80} className="lightblue" /> */}
                 </div>
                 <div className="skillContainer">
-                  <h5>Backend Development</h5>
-                  <p>NodeJS, ExpressJS, MongoDB, Firebase, DigitalOcean, SocketIO, Stripe Payment Integration, SQL</p>
-                  <ProgressBar now={65} className="gold" />
+                  <h5>Backend Development & Hosting</h5>
+                  {/* <p>NodeJS, ExpressJS, MongoDB, Firebase, DigitalOcean, SocketIO, Stripe Payment Integration, Flask, SQL</p> */}
+                  <div className="skill-pill-bar">
+                    <p className="skill-pill gold">NodeJS</p>
+                    <p className="skill-pill gold">ExpressJS</p>
+                    <p className="skill-pill gold">MongoDB</p>
+                    <p className="skill-pill gold">Google Cloud Platform</p>
+                    <p className="skill-pill gold">Firebase</p>
+                    <p className="skill-pill gold">DigitalOcean</p>
+                    <p className="skill-pill gold">Amazon Web Services</p>
+                    <p className="skill-pill gold">SocketIO</p>
+                    <p className="skill-pill gold">Stripe Payment Integration</p>
+                    <p className="skill-pill gold">Flask</p>
+                    <p className="skill-pill gold">SQL</p>
+                  </div>
+
+                  {/* <ProgressBar now={65} className="gold" /> */}
+                </div>
+                <div className="skillContainer">
+                  <h5>Data Science</h5>
+                  {/* Data Science: Python, Pandas, Jupyter, Bokeh, BeautifulSoup, AWS */}
+                  <div className="skill-pill-bar">
+                    <p className="skill-pill purple">Python</p>
+                    <p className="skill-pill purple">Pandas</p>
+                    <p className="skill-pill purple">Jupyter</p>
+                    <p className="skill-pill purple">Bokeh</p>
+                    <p className="skill-pill purple">BeautifulSoup</p>
+                    <p className="skill-pill purple">AWS</p>
+                  </div>
+
+                  {/* <ProgressBar now={65} className="gold" /> */}
                 </div>
                 <div className="skillContainer">
                   <h5>Mobile Development</h5>
-                  <p>Android & iOS via Ionic Framework, Deployment via Ionic Appflow, Adalo</p>
-                  <ProgressBar now={55} className="green" />
+                  {/* <p>Android & iOS via Ionic Framework, Deployment via Ionic Appflow, Adalo</p> */}
+                  <div className="skill-pill-bar">
+                    <p className="skill-pill green">Android & iOS via Ionic Framework</p>
+                    <p className="skill-pill green">Deployment via Ionic Appflow</p>
+                    <p className="skill-pill green">Adalo App Development</p>
+                  </div>
+                  {/* <ProgressBar now={55} className="green" /> */}
                 </div>
                 <div className="otherSkillInfo">
                   <p>& Experience with Version Control (Git & GitHub)</p>
@@ -51,47 +100,60 @@ const Skills = (props) => {
           <ScrollAnimation animateIn="animate__flipInX" animateOnce>
             <div className="skillCard">
               <div className="cardTitle">
-                <h4>Coding Skills</h4>
+                <h4>Coding & Technical Skills</h4>
               </div>
               <div className="cardContent">
                 <div className="skillContainer coding">
                   <div className="title">
-                    <h5>JavaScript & Libraries</h5>
-                    <h5 className="percentage">90%</h5>
+                    <h5>Full Stack Development (MERN Stack)</h5>
+                    {/* <h5 className="percentage">90%</h5> */}
                   </div>
-                  <ProgressBar now={90} className="lightred" />
+                  <ProgressBar now={85} className="lightred" />
                 </div>
                 <div className="skillContainer coding">
                   <div className="title">
-                    <h5>HTML, CSS, SCSS</h5>
-                    <h5 className="percentage">85%</h5>
+                    <h5>ReactJS, Redux, JavaScript & Libraries</h5>
+                    {/* <h5 className="percentage">90%</h5> */}
                   </div>
                   <ProgressBar now={85} className="lightgreen" />
+                </div>
+                {/* <div className="skillContainer coding">
+                  <div className="title">
+                    <h5>HTML, CSS, SCSS, LessCSS</h5>
+                  </div>
+                  <ProgressBar now={85} className="lightgreen" />
+                </div> */}
+                <div className="skillContainer coding">
+                  <div className="title">
+                    <h5>Python</h5>
+                    {/* <h5 className="percentage">50%</h5> */}
+                  </div>
+                  <ProgressBar now={70} className="orange" />
                 </div>
                 <div className="skillContainer coding">
                   <div className="title">
                     <h5>Java</h5>
-                    <h5 className="percentage">65%</h5>
+                    {/* <h5 className="percentage">65%</h5> */}
                   </div>
-                  <ProgressBar now={65} className="magenta" />
+                  <ProgressBar now={70} className="magenta" />
                 </div>
                 <div className="skillContainer coding">
                   <div className="title">
-                    <h5>C, C#</h5>
-                    <h5 className="percentage">55%</h5>
+                    <h5>C, C#, C++</h5>
+                    {/* <h5 className="percentage">55%</h5> */}
                   </div>
-                  <ProgressBar now={55} className="darkblue" />
+                  <ProgressBar now={60} className="darkblue" />
                 </div>
                 <div className="skillContainer coding">
                   <div className="title">
-                    <h5>Python (& Flask)</h5>
-                    <h5 className="percentage">50%</h5>
+                    <h5>Bash</h5>
+                    {/* <h5 className="percentage">55%</h5> */}
                   </div>
-                  <ProgressBar now={50} className="orange" />
+                  <ProgressBar now={60} className="gold" />
                 </div>
                 <div className="otherSkillInfo">
                   <p>Other Experience with:</p>
-                  <p className="more">Unity, Springboot, OCaml, MIPS</p>
+                  <p className="more">JUnit, Mockito, Guice, Unity, Springboot, OCaml, MIPS</p>
                 </div>
               </div>
             </div>

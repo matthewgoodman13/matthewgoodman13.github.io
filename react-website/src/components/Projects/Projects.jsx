@@ -19,6 +19,30 @@ const Projects = (props) => {
         <ScrollAnimation animateIn="animate__fadeIn" animateOnce>
           <Tilt className="projectCard">
             <div className="top">
+              <Image className="img" src={require('./reviewboard_logo.png')} />
+            </div>
+            <div className="content">
+              <div className="title">
+                <h3>Emoji UI Picker</h3>
+              </div>
+              <div className="subTitle">
+                <p>CANOSP Open Source Project</p>
+                <p>* Nominated to Participate *</p>
+                <p className="small">Fall 2021 Cohort</p>
+              </div>
+              <p className="info">
+                Created an Emoji Picker that allows customers to select emojis from a popup menu instead of typing out emoji short-codes
+              </p>
+            </div>
+            <a className="btnContainer" href="https://matthewgoodman.notion.site/Emoji-UI-Project-Final-Report-478cd8be2717437ba3270b1fb78ea629" target="_blank">
+              <a className="button">More Info</a>
+            </a>
+          </Tilt>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="animate__fadeIn" animateOnce>
+          <Tilt className="projectCard">
+            <div className="top">
               <Image className="img" src={require('./keepup_logo.png')} />
             </div>
             <div className="content">
@@ -60,7 +84,7 @@ const Projects = (props) => {
                 Website built for McGill's School of Computer Science as a prospect to replace its current website.
               </p>
             </div>
-            <a className="btnContainer" href="http://mcgillsocs.matthewgoodman.ca/" target="_blank">
+            <a className="btnContainer" href="https://github.com/matthewgoodman13/mcgill_socs" target="_blank">
               <a className="button">More Info</a>
             </a>
           </Tilt>

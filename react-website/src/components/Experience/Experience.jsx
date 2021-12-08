@@ -23,6 +23,33 @@ const Experience = (props) => {
         </div>
       </div>
       <Timeline lineColor={'#fff'}>
+        <TimelineItem className="timelineItem" key="001" dateText="June 2022 - August 2022">
+          <div className="bodyContent">
+            <div className="titleContent">
+              <Image className="img" src={require('./Amazon_icon.png')} />
+              <div className="text">
+                <h3>Incoming Software Development Engineer Intern</h3>
+                <h4>Amazon Canada - Vancouver</h4>
+              </div>
+            </div>
+            <div className="jobInfo">
+              <ul>
+                <li>Returning to Amazon for another internship!</li>
+              </ul>
+            </div>
+            <div className="skills">
+              {/* <p>Amazon Web Services</p>
+              <p>AWS Lambda</p>
+              <p>AWS DynamoDB</p>
+              <p>Amazon EventBridge</p>
+              <p>Java</p>
+              <p>Mockito</p>
+              <p>Unit Testing with JUnit</p>
+              <p>Google Guice</p>
+              <p>Development Cycle</p> */}
+            </div>
+          </div>
+        </TimelineItem>
         <TimelineItem className="timelineItem" key="001" dateText="June 2021 - August 2021">
           <div className="bodyContent">
             <div className="titleContent">
@@ -96,46 +123,6 @@ const Experience = (props) => {
             </div>
           </div>
         </TimelineItem>
-        {/* <TimelineItem className="timelineItem" key="001" dateText="Summer 2019">
-          <div className="bodyContent">
-            <div className="titleContent">
-              <Image className="img" src={require('./redwood1.jpg')} />
-              <div className="text">
-                <h3>Assistant Aquatic Coordinator</h3>
-                <h4>Redwood Country Day Camp</h4>
-              </div>
-            </div>
-            <div className="jobInfo">
-              <ul>
-                <li>
-                  Involves the organization and supervision of the aquatic program and pool. This includes managing the
-                  lifeguards and ensuring proper pool maintenance and safety.
-                </li>
-              </ul>
-            </div>
-            <div className="skills"></div>
-          </div>
-        </TimelineItem>
-        <TimelineItem className="timelineItem" key="001" dateText="Summer 2019">
-          <div className="bodyContent">
-            <div className="titleContent">
-              <Image className="img" src={require('./redwood1.jpg')} />
-              <div className="text">
-                <h3>Assistant Aquatic Coordinator</h3>
-                <h4>Redwood Country Day Camp</h4>
-              </div>
-            </div>
-            <div className="jobInfo">
-              <ul>
-                <li>
-                  Involves the organization and supervision of the aquatic program and pool. This includes managing the
-                  lifeguards and ensuring proper pool maintenance and safety.
-                </li>
-              </ul>
-            </div>
-            <div className="skills"></div>
-          </div>
-        </TimelineItem> */}
       </Timeline>
     </div>
   );
