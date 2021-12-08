@@ -30,7 +30,7 @@ const Education = (props) => {
                       <p className="title">McGill University</p>
                       <p>Bachelor of Science</p>
                       <p>Major in Computer Science</p>
-                      <p>Sept. 2019 - Dec. 2022 (U2)</p>
+                      <p>Sept. 2019 - 2023 (U3)</p>
                     </div>
                   </div>
                   <div className="bottom">Hover To See Courses</div>
