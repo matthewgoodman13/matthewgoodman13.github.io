@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec11247f.chunk.css",
-    "main.js": "/static/js/main.192e4138.chunk.js",
-    "main.js.map": "/static/js/main.192e4138.chunk.js.map",
+    "main.css": "/static/css/main.c9f8e7a2.chunk.css",
+    "main.js": "/static/js/main.efae8b12.chunk.js",
+    "main.js.map": "/static/js/main.efae8b12.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.39870823.js",
     "runtime-main.js.map": "/static/js/runtime-main.39870823.js.map",
     "static/css/2.c182f604.chunk.css": "/static/css/2.c182f604.chunk.css",
-    "static/js/2.e638999b.chunk.js": "/static/js/2.e638999b.chunk.js",
-    "static/js/2.e638999b.chunk.js.map": "/static/js/2.e638999b.chunk.js.map",
+    "static/js/2.88c50914.chunk.js": "/static/js/2.88c50914.chunk.js",
+    "static/js/2.88c50914.chunk.js.map": "/static/js/2.88c50914.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4e29a4fe0562df96baa9fc410d93e190.js": "/precache-manifest.4e29a4fe0562df96baa9fc410d93e190.js",
+    "precache-manifest.7e83e02b29f957d38123ea36616dfbe2.js": "/precache-manifest.7e83e02b29f957d38123ea36616dfbe2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.c182f604.chunk.css.map": "/static/css/2.c182f604.chunk.css.map",
-    "static/css/main.ec11247f.chunk.css.map": "/static/css/main.ec11247f.chunk.css.map",
-    "static/js/2.e638999b.chunk.js.LICENSE.txt": "/static/js/2.e638999b.chunk.js.LICENSE.txt",
-    "static/media/Home.scss": "/static/media/3d-perspective-style-diamond-shape-white-background_1017-27556.dea36fe6.jpg",
+    "static/css/main.c9f8e7a2.chunk.css.map": "/static/css/main.c9f8e7a2.chunk.css.map",
+    "static/js/2.88c50914.chunk.js.LICENSE.txt": "/static/js/2.88c50914.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Oswald-SemiBold.c8ff3929.ttf",
     "static/media/Education.scss": "/static/media/sttpic.096f2180.jpg",
     "static/media/ai.svg": "/static/media/ai.690bc978.svg",
@@ -49,6 +48,7 @@
     "static/media/programmingwhite.svg": "/static/media/programmingwhite.07569f94.svg",
     "static/media/quote.svg": "/static/media/quote.6b60914a.svg",
     "static/media/react.svg": "/static/media/react.d53f86ba.svg",
+    "static/media/reviewboard_logo.png": "/static/media/reviewboard_logo.8559aa83.png",
     "static/media/rocket.svg": "/static/media/rocket.aeca962d.svg",
     "static/media/rocket2.svg": "/static/media/rocket2.baeffeba.svg",
     "static/media/smartphone.svg": "/static/media/smartphone.adbe2dd8.svg",
@@ -56,13 +56,14 @@
     "static/media/travelling.svg": "/static/media/travelling.f16a7bf7.svg",
     "static/media/vr.svg": "/static/media/vr.99026515.svg",
     "static/media/wave.svg": "/static/media/wave.8a10067e.svg",
-    "static/media/webdesign.svg": "/static/media/webdesign.1debf7ba.svg"
+    "static/media/webdesign.svg": "/static/media/webdesign.1debf7ba.svg",
+    "static/media/Home.scss": "/static/media/white_header_background.dea36fe6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.39870823.js",
     "static/css/2.c182f604.chunk.css",
-    "static/js/2.e638999b.chunk.js",
-    "static/css/main.ec11247f.chunk.css",
-    "static/js/main.192e4138.chunk.js"
+    "static/js/2.88c50914.chunk.js",
+    "static/css/main.c9f8e7a2.chunk.css",
+    "static/js/main.efae8b12.chunk.js"
   ]
 }
