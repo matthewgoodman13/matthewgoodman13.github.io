@@ -56,9 +56,6 @@ const NavbarComponent = (props) => {
             <a className="nav-link" href="#education" onClick={(e) => handleClick(e)}>
               Education
             </a>
-            <a className="nav-link" href="#onlinecourses" onClick={(e) => handleClick(e)}>
-              Online Courses
-            </a>
             <a className="nav-link" href="#skills" onClick={(e) => handleClick(e)}>
               Skills
             </a>
@@ -67,6 +64,9 @@ const NavbarComponent = (props) => {
             </a>
             <a className="nav-link" href="#projects" onClick={(e) => handleClick(e)}>
               Projects
+            </a>
+            <a className="nav-link" href="#onlinecourses" onClick={(e) => handleClick(e)}>
+              Online Courses
             </a>
             <a className="nav-link" href="#contact" onClick={(e) => handleClick(e)}>
               Contact

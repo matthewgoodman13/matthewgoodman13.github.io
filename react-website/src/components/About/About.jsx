@@ -23,8 +23,7 @@ const About = (props) => {
       <div className="right">
         <div className="aboutMessage">
           <Image className="quoteIcon" src={require('./icons/quote.svg')} />
-          Hi, I’m Matthew! I am a creative and self-motivated Computer Science Student at McGill University. I am in U3,
-          and I am excited to pursue my goal of obtaining a career in the technology field.
+          Hi, I'm Matthew! I am a McGill Computer Science new-grad and technology enthusiast looking for a full-time Software Engineering, Full Stack Engineering, or Frontend Engineering position. I am creative, self-motivated and love to learn - especially when learning about the intersection of my passions for technology and sports!
         </div>
         <div className="interestsContainer">
           <ScrollAnimation animateIn="animate__slideInUp" animateOnce>

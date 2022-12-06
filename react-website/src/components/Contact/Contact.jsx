@@ -17,7 +17,7 @@ const Contact = (props) => {
         </div>
         <div className="titleContent">
           <h2>Matthew Goodman</h2>
-          <h4>Software Developer</h4>
+          <h4>Software Engineer</h4>
         </div>
         <div className="emails">
           <p className="emailTitle">Email:</p>

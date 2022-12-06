@@ -28,25 +28,26 @@ const Experience = (props) => {
             <div className="titleContent">
               <Image className="img" src={require('./Amazon_icon.png')} />
               <div className="text">
-                <h3>Incoming Software Development Engineer Intern</h3>
+                <h3>Software Development Engineer Intern II</h3>
                 <h4>Amazon Canada - Vancouver</h4>
               </div>
             </div>
             <div className="jobInfo">
               <ul>
-                <li>Returning to Amazon for another internship!</li>
+                <li><strong>Enabled same-service service discovery in Kubernetes clusters</strong> allowing customers to create resilient and redundant services that communicate across multiple clusters</li>
+                <li><strong>Contributed to the Kubernetes open-source multicluster community</strong> to help break the hard-boundary of communication between Kubernetes clusters</li>
+                <li><strong>Closed major <a href='https://github.com/aws/aws-cloud-map-mcs-controller-for-k8s/issues/47' target="_blank">GitHub Issue ↗</a></strong> to advance project towards a beta version compliant with Kubernetes SIG-Multicluster specifications</li>
+                <li>Open-Source Project: <a href='https://github.com/aws/aws-cloud-map-mcs-controller-for-k8s' target="_blank">AWS Cloud Map MCS Controller for K8s Project ↗</a></li>
               </ul>
             </div>
             <div className="skills">
-              {/* <p>Amazon Web Services</p>
-              <p>AWS Lambda</p>
-              <p>AWS DynamoDB</p>
-              <p>Amazon EventBridge</p>
-              <p>Java</p>
-              <p>Mockito</p>
-              <p>Unit Testing with JUnit</p>
-              <p>Google Guice</p>
-              <p>Development Cycle</p> */}
+              <p>Amazon Web Services</p>
+              <p>Golang</p>
+              <p>Kubernetes</p>
+              <p>Kubernetes</p>
+              <p>OperatorSDK</p>
+              <p>Networking & DNS</p>
+              <p>Open-Source</p>
             </div>
           </div>
         </TimelineItem>
@@ -55,17 +56,14 @@ const Experience = (props) => {
             <div className="titleContent">
               <Image className="img" src={require('./Amazon_icon.png')} />
               <div className="text">
-                <h3>Software Development Engineer Intern</h3>
+                <h3>Software Development Engineer Intern I</h3>
                 <h4>Amazon Canada - Vancouver</h4>
               </div>
             </div>
             <div className="jobInfo">
               <ul>
-                <li><strong>Designed</strong>, <strong>integrated</strong>, and <strong>launched</strong> an event-driven architecture allowing Cloud
-                  Map customers to receive automated events on status changes instead of
-                  customers needing to manually poll for updates</li>
-                <li>Allows customers to migrate away from Cloud Map’s throttled APIs and as a
-                  result eases Cloud Map’s API traffic</li>
+                <li><strong>Optimized and reduced AWS Cloud Map API traffic</strong> though implementation of event-driven architecture for status updates, eliminating need for manual polling </li>
+                <li>Onboarded AWS Cloud Map onto AWS EventBridge for event management for health checks and status updates</li>
               </ul>
             </div>
             <div className="skills">
@@ -98,28 +96,32 @@ const Experience = (props) => {
                   on-the-way deliveries and <strong>deployed it</strong> to the Apple and Google Play Store
                 </li>
                 <li>
-                  <strong>Built</strong> KargoROO’s informatic website:{' '}
+                  Integrated <strong>Stripe Payment handling</strong> and <strong>Google Maps APIs</strong> for delivery tracking
+                </li>
+                <li>
+                  <strong>Built and deployed</strong> KargoROO’s informatic website:{' '}
                   <a href="https://kargoroo.ca/" target="_blank">
-                    kargoroo.ca
+                    kargoroo.ca ↗
                   </a>
                 </li>
                 <li>
-                  <strong>Managed</strong> company technical aspects of developing their mobile app platform
+                  <strong>Managed and organized</strong> team's engineering effort including managing Upwork teams and an intern
                 </li>
               </ul>
             </div>
             <div className="skills">
-              <p>UI/UX Design</p>
               <p>Ionic Framework</p>
-              <p>React</p>
+              <p>ReactJS</p>
               <p>Redux</p>
               <p>NodeJS</p>
               <p>MongoDB</p>
               <p>Firebase</p>
+              <p>UI/UX Design</p>
               <p>Google Maps API</p>
+              <p>Stripe</p>
               <p>Bootstrap</p>
-              <p>Digital Ocean</p>
-              <p>20000+ Lines of Code</p>
+              <p>DigitalOcean</p>
+              <p>30000+ Lines of Code</p>
             </div>
           </div>
         </TimelineItem>

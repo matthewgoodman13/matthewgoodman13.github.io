@@ -15,7 +15,7 @@ const Home = (props) => {
       <div className="main">
         <div className="titleContent">
           <h1>Matthew Goodman</h1>
-          <h2>Software Developer</h2>
+          <h2>Software Engineer</h2>
         </div>
         <p className="welcomeStatement">Welcome to my Personal Website!</p>
 
@@ -38,7 +38,7 @@ const Home = (props) => {
           <a className="contact" href="#contact">
             Contact Me
           </a>
-          <a className="download" href="resumes/Resume - Matthew Goodman - revDec v1.pdf" download>
+          <a className="download" href="resumes/Resume - Matthew Goodman - revDec2022.pdf" download>
             Download Resume as PDF
           </a>
         </div>

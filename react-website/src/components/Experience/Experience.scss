@@ -82,7 +82,7 @@
           }
 
           h3 {
-            color: #51a9f1;
+            color: #3b9bea;
             font-size: 25px;
           }
           h4 {
@@ -100,6 +100,15 @@
 
             &:last-child {
               padding-bottom: 0;
+            }
+
+            a {
+              color: #0a6bba;
+              font-weight: bold;
+              &:hover {
+                color: #004177;
+                text-decoration: underline;
+              }
             }
           }
         }
@@ -121,10 +130,10 @@
             margin: 4px;
             padding: 4px 12px;
             border-radius: 4px;
-            background-color: #cecece;
+            background-color: #cbd1ea;
 
             &:hover {
-              background-color: #aaaaaa;
+              background-color: #98a2ca;
             }
           }
         }

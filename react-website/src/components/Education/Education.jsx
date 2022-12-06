@@ -30,7 +30,7 @@ const Education = (props) => {
                       <p className="title">McGill University</p>
                       <p>Bachelor of Science</p>
                       <p>Major in Computer Science</p>
-                      <p>Sept. 2019 - 2023 (U3)</p>
+                      <p>Sep 2019 - Dec 2022 (Graduated)</p>
                     </div>
                   </div>
                   <div className="bottom">Hover To See Courses</div>
@@ -48,13 +48,13 @@ const Education = (props) => {
                     <p>COMP302: Progr. Languages & Paradigms</p>
                     <p>COMP307: Principles of Web Development</p>
                     <p>COMP310: Operating Systems</p>
-                    <p>COMP360: Algorithm Design</p>
-                    <p>COMP361: Software Eng. Design Project</p>
-                    <p>COMP396: CANOSP Open Source Project</p>
-                    <p>COMP598: Introduction to Data Science</p>
-                    <hr />
-                    <p>COMP421: Database Systems</p>
                     <p>COMP322: Introduction to C++</p>
+                    <p>COMP360: Algorithm Design</p>
+                    <p>COMP421: Database Systems</p>
+                    <p>COMP514: Robotics</p>
+                    <p>COMP598: Introduction to Data Science</p>
+                    <p><b>GPA: 3.6/4.0</b></p>
+                    <hr />
                   </div>
                 </div>
               </div>

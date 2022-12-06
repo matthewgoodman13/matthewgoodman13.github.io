@@ -1,0 +1,330 @@
+.UpdatedSkills {
+  display: flex;
+  flex-direction: row;
+  // background: linear-gradient(to right, #ffffff, #f2f2f2);
+  background: #34149f;
+  width: 100%;
+  position: relative;
+
+  .left {
+    order: 0;
+    padding: 16px 0;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    background-position: center;
+    position: relative;
+
+    // justify-content: space-between;
+
+    .leftPanel,
+    .rightPanel {
+      display: flex;
+      flex: 1;
+      height: 100%;
+      flex-direction: column;
+      align-items: center;
+
+      .skillCard {
+        margin: 8px 14px;
+
+        background-color: white;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        border-radius: 12px;
+
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+
+        max-width: 1700px;
+
+        transition: 0.4s ease-out;
+
+        &:hover {
+          transform: translateY(-8px);
+        }
+
+        .cardTitle {
+          padding: 8px;
+          margin-bottom: 4px;
+          background-color: #140056;
+          color: white;
+          font-size: 22px;
+          border-radius: 12px 12px 0 0;
+
+          h4 {
+            position: relative;
+            top: -1px;
+            margin: 0;
+            padding: 0;
+          }
+        }
+
+        .cardContent {
+          padding: 12px 16px;
+          text-align: left;
+          font-family: 'OpenSans';
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+
+
+          .col1, .col2 {
+            margin: 4px 16px;
+            width: 50%;
+          }
+
+          p {
+            margin: 0;
+            padding: 0;
+          }
+
+          .skillContainer {
+            padding-bottom: 22px;
+
+            .title {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: center;
+
+              .percentage {
+                color: rgb(95, 95, 95);
+                font-size: 15px;
+              }
+            }
+
+            h5 {
+              padding: 0;
+              margin: 0;
+              font-size: 21px;
+              font-weight: bold;
+
+              u {
+              text-decoration-color: rgb(229, 149, 0);
+              }
+            }
+
+            &.coding {
+              h5 {
+                font-size: 17px;
+                padding-bottom: 5px;
+              }
+            }
+
+            p {
+              margin: 0;
+              padding: 0;
+              color: rgb(95, 95, 95);
+              padding-bottom: 3px;
+              font-size: 15px;
+            }
+            .progress {
+              height: 10px;
+
+              &.purple .progress-bar {
+                background-color: rgb(142, 11, 168);
+              }
+              &.lightblue .progress-bar {
+                background-color: rgb(13, 160, 245);
+              }
+              &.gold .progress-bar {
+                background-color: rgb(245, 183, 13);
+              }
+              &.green .progress-bar {
+                background-color: rgb(33, 139, 0);
+              }
+              &.lightred .progress-bar {
+                background-color: rgb(255, 86, 80);
+              }
+              &.lightgreen .progress-bar {
+                background-color: rgb(88, 228, 23);
+              }
+              &.magenta .progress-bar {
+                background-color: rgb(223, 28, 148);
+              }
+              &.darkblue .progress-bar {
+                background-color: rgb(0, 0, 117);
+              }
+              &.orange .progress-bar {
+                background-color: rgb(255, 116, 36);
+              }
+            }
+
+            .skill-pill-bar {
+              position: relative;
+              margin-top: 4px;
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              width: 100%;
+            }
+
+            .skill-pill {
+              display: flex;
+              // border: 1px solid;
+              font-family: 'Inconsolata';
+              font-size: 16px;
+              flex-grow: 1;
+              justify-content: center;
+
+              color: black;
+
+            
+              // &.purple {
+              //   background-color: rgb(210, 60, 255);
+              //   border-color: #4c005c;
+              //   color: rgb(10, 2, 2);
+              // }
+              // &.lightblue {
+              //   background-color: rgb(57, 181, 253);
+              //   border-color: #002c85;
+              //   color: rgb(48, 48, 48);
+              // }
+              // &.gold {
+              //   color: rgb(48, 48, 48);
+              //   border-color: #725700;
+              //   background-color: rgb(245, 183, 13);
+              // }
+              // &.green {
+              //   color: rgb(48, 48, 48);
+              //   border-color: #00530e;
+              //   background-color: rgb(47, 182, 6);
+              // }
+              // &.lightred {
+              //   background-color: rgb(255, 86, 80);
+              // }
+              // &.lightgreen {
+              //   background-color: rgb(88, 228, 23);
+              // }
+              // &.magenta {
+              //   background-color: rgb(223, 28, 148);
+              // }
+              // &.darkblue {
+              //   background-color: rgb(0, 0, 117);
+              // }
+              // &.orange {
+              //   background-color: rgb(255, 116, 36);
+              // }
+
+              &:hover {
+                background-color: #a3a7c1;
+              }
+
+              margin: 4px;
+              padding: 4px 12px;
+              border-radius: 8px;
+              background-color: #cbd1ea;
+            }
+
+          }
+
+          .otherSkillInfo {
+            font-size: 18px;
+
+            .more {
+              color: #515151;
+              font-size: 16px;
+            }
+          }
+        }
+
+        &.horizontal {
+          flex-direction: row;
+          flex: 0;
+          .cardTitle {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 24px;
+            border-radius: 12px 0 0 12px;
+          }
+
+          .cardContent {
+            padding: 4px 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+          }
+        }
+      }
+    }
+  }
+
+  .right {
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    background-color: #140056;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+      color: white;
+      margin: 0;
+      padding: 0 8px;
+      position: relative;
+      top: 14px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .UpdatedSkills {
+    flex-direction: column;
+
+    
+
+    .left {
+      flex-direction: column;
+      order: 1;
+      margin: 0;
+      align-items: center;
+
+      .skillCard {
+        width: 550px;
+      }
+
+      .cardContent {
+        flex-direction: column!important;
+  
+        .col1, .col2 {
+          width: auto!important;
+        }
+  
+      }
+    }
+    .right {
+      flex-direction: row;
+      width: 100%;
+      padding: 0;
+
+      justify-content: center;
+      align-items: center;
+
+      .image {
+        height: 90px;
+        padding-left: 10px;
+      }
+
+      h3 {
+        top: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .UpdatedSkills {
+    pointer-events: none;
+    .left {
+      .skillCard {
+        width: 90vw;
+      }
+    }
+  }
+}

@@ -16,25 +16,29 @@ const Projects = (props) => {
         <div className="line"></div>
       </div>
       <div className="cardsContainer">
+
         <ScrollAnimation animateIn="animate__fadeIn" animateOnce>
           <Tilt className="projectCard">
             <div className="top">
-              <Image className="img" src={require('./reviewboard_logo.png')} />
+              <Image className="img" src={require('./smartteams.png')} />
             </div>
             <div className="content">
               <div className="title">
-                <h3>Emoji UI Picker</h3>
+                <h3>SmartTeams</h3>
               </div>
               <div className="subTitle">
-                <p>CANOSP Open Source Project</p>
-                <p>* Nominated to Participate *</p>
-                <p className="small">Fall 2021 Cohort</p>
+                <p>Personal Project</p>
+                <p className="small">September 2022</p>
               </div>
               <p className="info">
-                Created an Emoji Picker that allows customers to select emojis from a popup menu instead of typing out emoji short-codes
+                Built software engineering tool for software managers to help reduce turnover rates and increase employee satisfaction among engineering teams.
               </p>
             </div>
-            <a className="btnContainer" href="https://matthewgoodman.notion.site/Emoji-UI-Project-Final-Report-478cd8be2717437ba3270b1fb78ea629" target="_blank">
+            <a
+              className="btnContainer"
+              href="https://smartteams.ca/"
+              target="_blank"
+            >
               <a className="button">More Info</a>
             </a>
           </Tilt>
@@ -61,6 +65,62 @@ const Projects = (props) => {
               </p>
             </div>
             <a className="btnContainer" href="https://devpost.com/software/keepup-htaqle" target="_blank">
+              <a className="button">More Info</a>
+            </a>
+          </Tilt>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="animate__fadeIn" animateOnce>
+          <Tilt className="projectCard">
+            <div className="top">
+              <Image className="img" src={require('./mcgilldates_logo.png')} />
+            </div>
+            <div className="content">
+              <div className="title">
+                <h3>McGill Dates</h3>
+              </div>
+              <div className="subTitle">
+                <p>Personal Project</p>
+                <p className="small">February 2022</p>
+              </div>
+              <p className="info">
+                Built, marketed, and launched Valentine's Day dating app plaform exclusively for McGill students.
+              </p>
+            </div>
+            <a
+              className="btnContainer"
+              href="https://matthewgoodman.notion.site/McGill-Dates-Info-d52297bd9b2840269ea76206e37a9c8d"
+              target="_blank"
+            >
+              <a className="button">More Info</a>
+            </a>
+          </Tilt>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="animate__fadeIn" animateOnce>
+          <Tilt className="projectCard">
+            <div className="top">
+              <Image className="img" src={require('./reviewboard_logo.png')} />
+            </div>
+            <div className="content">
+              <div className="title">
+                <h3>Emoji UI Picker</h3>
+              </div>
+              <div className="subTitle">
+                <p>CANOSP Open Source Project</p>
+                <p>* Nominated to Participate *</p>
+                <p className="small">Fall 2021 Cohort</p>
+              </div>
+              <p className="info">
+                Created an Emoji Picker that allows customers to select emojis from a popup menu instead of typing out
+                emoji short-codes.
+              </p>
+            </div>
+            <a
+              className="btnContainer"
+              href="https://matthewgoodman.notion.site/Emoji-UI-Project-Final-Report-478cd8be2717437ba3270b1fb78ea629"
+              target="_blank"
+            >
               <a className="button">More Info</a>
             </a>
           </Tilt>
