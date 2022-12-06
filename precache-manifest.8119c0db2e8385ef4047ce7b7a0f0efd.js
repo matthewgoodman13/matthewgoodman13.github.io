@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78b723eeac306a6a21e28d26ca25f611",
+    "revision": "03b9500bc9767493dd8ffe1afdfaec46",
     "url": "/index.html"
   },
   {
-    "revision": "29e2c61f53680977cedf",
+    "revision": "8ef5d223525f3012231f",
     "url": "/static/css/2.c182f604.chunk.css"
   },
   {
-    "revision": "b0e548568c97466e7624",
-    "url": "/static/css/main.c9f8e7a2.chunk.css"
+    "revision": "0ccbcfc0e0905e4511bf",
+    "url": "/static/css/main.5d85f0a3.chunk.css"
   },
   {
-    "revision": "29e2c61f53680977cedf",
-    "url": "/static/js/2.88c50914.chunk.js"
+    "revision": "8ef5d223525f3012231f",
+    "url": "/static/js/2.2459877e.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.88c50914.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.2459877e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b0e548568c97466e7624",
-    "url": "/static/js/main.efae8b12.chunk.js"
+    "revision": "0ccbcfc0e0905e4511bf",
+    "url": "/static/js/main.dfe56138.chunk.js"
   },
   {
     "revision": "f57bd6b3cd488554ebce",
@@ -132,6 +132,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mcgill.5076f44f.jpg"
   },
   {
+    "revision": "3d5cd82f9ccde09e2ded57056c038d22",
+    "url": "/static/media/mcgilldates_logo.3d5cd82f.png"
+  },
+  {
     "revision": "46da66d41ca66a5ec3affa8b1bc9b4d1",
     "url": "/static/media/mcgillsocs.46da66d4.jpg"
   },
@@ -202,6 +206,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "adbe2dd80b0f8d35ac1542e7b00e0efe",
     "url": "/static/media/smartphone.adbe2dd8.svg"
+  },
+  {
+    "revision": "599e055004937d2416534f2736833f78",
+    "url": "/static/media/smartteams.599e0550.png"
   },
   {
     "revision": "9ddd9ae08e40ca52835aeaf4be97f128",

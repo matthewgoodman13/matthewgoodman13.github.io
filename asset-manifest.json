@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9f8e7a2.chunk.css",
-    "main.js": "/static/js/main.efae8b12.chunk.js",
-    "main.js.map": "/static/js/main.efae8b12.chunk.js.map",
+    "main.css": "/static/css/main.5d85f0a3.chunk.css",
+    "main.js": "/static/js/main.dfe56138.chunk.js",
+    "main.js.map": "/static/js/main.dfe56138.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.39870823.js",
     "runtime-main.js.map": "/static/js/runtime-main.39870823.js.map",
     "static/css/2.c182f604.chunk.css": "/static/css/2.c182f604.chunk.css",
-    "static/js/2.88c50914.chunk.js": "/static/js/2.88c50914.chunk.js",
-    "static/js/2.88c50914.chunk.js.map": "/static/js/2.88c50914.chunk.js.map",
+    "static/js/2.2459877e.chunk.js": "/static/js/2.2459877e.chunk.js",
+    "static/js/2.2459877e.chunk.js.map": "/static/js/2.2459877e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7e83e02b29f957d38123ea36616dfbe2.js": "/precache-manifest.7e83e02b29f957d38123ea36616dfbe2.js",
+    "precache-manifest.8119c0db2e8385ef4047ce7b7a0f0efd.js": "/precache-manifest.8119c0db2e8385ef4047ce7b7a0f0efd.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.c182f604.chunk.css.map": "/static/css/2.c182f604.chunk.css.map",
-    "static/css/main.c9f8e7a2.chunk.css.map": "/static/css/main.c9f8e7a2.chunk.css.map",
-    "static/js/2.88c50914.chunk.js.LICENSE.txt": "/static/js/2.88c50914.chunk.js.LICENSE.txt",
+    "static/css/main.5d85f0a3.chunk.css.map": "/static/css/main.5d85f0a3.chunk.css.map",
+    "static/js/2.2459877e.chunk.js.LICENSE.txt": "/static/js/2.2459877e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Oswald-SemiBold.c8ff3929.ttf",
     "static/media/Education.scss": "/static/media/sttpic.096f2180.jpg",
     "static/media/ai.svg": "/static/media/ai.690bc978.svg",
@@ -34,6 +34,7 @@
     "static/media/logo.svg": "/static/media/logo.27d12450.svg",
     "static/media/mcfitt.jpg": "/static/media/mcfitt.62ec64ad.jpg",
     "static/media/mcgill-university-logo.png": "/static/media/mcgill-university-logo.2f0e863f.png",
+    "static/media/mcgilldates_logo.png": "/static/media/mcgilldates_logo.3d5cd82f.png",
     "static/media/mcgillsocs.jpg": "/static/media/mcgillsocs.46da66d4.jpg",
     "static/media/mern.svg": "/static/media/mern.b9d2ea42.svg",
     "static/media/Contact.scss": "/static/media/mtl.0b8a7d54.jpg",
@@ -52,6 +53,7 @@
     "static/media/rocket.svg": "/static/media/rocket.aeca962d.svg",
     "static/media/rocket2.svg": "/static/media/rocket2.baeffeba.svg",
     "static/media/smartphone.svg": "/static/media/smartphone.adbe2dd8.svg",
+    "static/media/smartteams.png": "/static/media/smartteams.599e0550.png",
     "static/media/snowboarding.png": "/static/media/snowboarding.9ddd9ae0.png",
     "static/media/travelling.svg": "/static/media/travelling.f16a7bf7.svg",
     "static/media/vr.svg": "/static/media/vr.99026515.svg",
@@ -62,8 +64,8 @@
   "entrypoints": [
     "static/js/runtime-main.39870823.js",
     "static/css/2.c182f604.chunk.css",
-    "static/js/2.88c50914.chunk.js",
-    "static/css/main.c9f8e7a2.chunk.css",
-    "static/js/main.efae8b12.chunk.js"
+    "static/js/2.2459877e.chunk.js",
+    "static/css/main.5d85f0a3.chunk.css",
+    "static/js/main.dfe56138.chunk.js"
   ]
 }
