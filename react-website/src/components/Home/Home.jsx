@@ -38,7 +38,7 @@ const Home = (props) => {
           <a className="contact" href="#contact">
             Contact Me
           </a>
-          <a className="download" href="resumes/Resume - Matthew Goodman - revDec2022.pdf" download>
+          <a className="download" href="resumes/Resume_MatthewGoodman_Jan2023.pdf" download>
             Download Resume as PDF
           </a>
         </div>
