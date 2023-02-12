@@ -19,7 +19,8 @@ const OnlineCourses = (props) => {
         <ScrollAnimation animateIn="animate__fadeIn" animateOnce>
           <div className="card">
             <div className="imgBx" data-text="Harvard">
-              <Image className="img" src={require('./icons/harvard.svg')} />
+              {/* FROM FLATICON.COM */}
+              <Image className="img" src={require('./icons/harvard.svg')} /> 
               <div className="subContent">
                 <p className="hours">100+ Hours</p>
                 <div className="skills">
@@ -88,6 +89,46 @@ const OnlineCourses = (props) => {
                 <a href="https://www.udemy.com/course/mern-stack-front-to-back" target="_blank">
                   Course Site
                 </a>
+              </div>
+            </div>
+          </div>
+        </ScrollAnimation>
+        
+        {/* <a href="https://www.flaticon.com/free-icons/process" title="process icons">Process icons created by Freepik - Flaticon</a>
+         */}
+
+        <ScrollAnimation animateIn="animate__fadeIn" animateOnce>
+          <div className="card">
+            <div className="imgBx" data-text="Go">
+              <Image className="img" src={require('./icons/go.png')} />
+              <div className="subContent">
+                <p className="hours">50+ Hours</p>
+                <div className="skills">
+                  <p>Web Apps</p>
+                  <p>Sockets</p>
+                  <p className='smaller'>Microservices</p>
+                </div>
+                <div className="skills">
+                  <p>Payments</p>
+                  <p>Testing</p>
+                </div>
+              </div>
+            </div>
+            <div className="content">
+              <div className="titleComponent">
+                <h3>
+                  Go: 4 Udemy Courses
+                </h3>
+                <h5>Udemy</h5>
+              </div>
+              <p>
+                Completed 4 Udemy courses exploring the Go Programming Language and learning how to build web apps, microservices, socket systems, and testing.
+              </p>
+              <div className="links">
+                <a href="https://matthewgoodman.notion.site/Go-Udemy-Courses-a2ed2b0c005a4dab9d6bd3d7764448c4" target="_blank">
+                  Info & Certificates
+                </a>
+
               </div>
             </div>
           </div>

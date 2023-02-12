@@ -26,7 +26,7 @@ const Skills = (props) => {
                   </p> */}
                     <div className="skill-pill-bar">
                       <p className="skill-pill lightblue">JavaScript</p>
-                      <p className="skill-pill lightblue">Golang</p>
+                      <p className="skill-pill lightblue">Go</p>
                       <p className="skill-pill lightblue">Python</p>
                       <p className="skill-pill lightblue">Java</p>
                       <p className="skill-pill lightblue">C</p>
@@ -67,6 +67,7 @@ const Skills = (props) => {
                       <p className="skill-pill gold">NodeJS</p>
                       <p className="skill-pill gold">ExpressJS</p>
                       <p className="skill-pill gold">MongoDB</p>
+                      <p className="skill-pill gold">MariaDB</p>
                       <p className="skill-pill gold">SQL</p>
                       <p className="skill-pill gold">AWS DynamoDB</p>
                       <p className="skill-pill gold">AWS Lambda</p>
