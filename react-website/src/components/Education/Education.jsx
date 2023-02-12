@@ -28,9 +28,9 @@ const Education = (props) => {
                     />
                     <div className="textContent">
                       <p className="title">McGill University</p>
-                      <p>Bachelor of Science</p>
-                      <p>Major in Computer Science</p>
-                      <p>Sep 2019 - Dec 2022 (Graduated)</p>
+                      <p>BSc. Major in Computer Science</p>
+                      <p>Minor in Entrepreneurship</p>
+                      <p>Graduated December 2022</p>
                     </div>
                   </div>
                   <div className="bottom">Hover To See Courses</div>
