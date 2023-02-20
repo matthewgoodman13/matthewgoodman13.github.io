@@ -34,20 +34,38 @@ const Experience = (props) => {
             </div>
             <div className="jobInfo">
               <ul>
-                <li><strong>Enabled same-service service discovery in Kubernetes clusters</strong> allowing customers to create resilient and redundant services that communicate across multiple clusters</li>
-                <li><strong>Contributed to the Kubernetes open-source multicluster community</strong> to help break the hard-boundary of communication between Kubernetes clusters</li>
-                <li><strong>Closed major <a href='https://github.com/aws/aws-cloud-map-mcs-controller-for-k8s/issues/47' target="_blank">GitHub Issue ↗</a></strong> to advance project towards a beta version compliant with Kubernetes SIG-Multicluster specifications</li>
-                <li>Open-Source Project: <a href='https://github.com/aws/aws-cloud-map-mcs-controller-for-k8s' target="_blank">AWS Cloud Map MCS Controller for K8s Project ↗</a></li>
+                <li>
+                  <strong>Enabled same-service service discovery in Kubernetes clusters</strong> allowing customers to
+                  create resilient and redundant services that communicate across multiple clusters
+                </li>
+                <li>
+                  <strong>Contributed to the Kubernetes open-source multicluster community</strong> to help break the
+                  hard-boundary of communication between Kubernetes clusters
+                </li>
+                <li>
+                  <strong>
+                    Closed major{' '}
+                    <a href="https://github.com/aws/aws-cloud-map-mcs-controller-for-k8s/issues/47" target="_blank">
+                      GitHub Issue ↗
+                    </a>
+                  </strong>{' '}
+                  to advance project towards a beta version compliant with Kubernetes SIG-Multicluster specifications
+                </li>
+                <li>
+                  Open-Source Project:{' '}
+                  <a href="https://github.com/aws/aws-cloud-map-mcs-controller-for-k8s" target="_blank">
+                    AWS Cloud Map MCS Controller for K8s Project ↗
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="skills">
               <p>Amazon Web Services</p>
-              <p>Golang</p>
-              <p>Kubernetes</p>
+              <p>Go</p>
               <p>Kubernetes</p>
               <p>OperatorSDK</p>
               <p>Networking & DNS</p>
-              <p>Open-Source</p>
+              <p>Open-Source Project</p>
             </div>
           </div>
         </TimelineItem>
@@ -62,8 +80,13 @@ const Experience = (props) => {
             </div>
             <div className="jobInfo">
               <ul>
-                <li><strong>Optimized and reduced AWS Cloud Map API traffic</strong> though implementation of event-driven architecture for status updates, eliminating need for manual polling </li>
-                <li>Onboarded AWS Cloud Map onto AWS EventBridge for event management for health checks and status updates</li>
+                <li>
+                  <strong>Optimized and reduced AWS Cloud Map API traffic</strong> though implementation of event-driven
+                  architecture for status updates, eliminating need for manual polling{' '}
+                </li>
+                <li>
+                  Onboarded AWS Cloud Map onto AWS EventBridge for event management for health checks and status updates
+                </li>
               </ul>
             </div>
             <div className="skills">
@@ -96,7 +119,8 @@ const Experience = (props) => {
                   on-the-way deliveries and <strong>deployed it</strong> to the Apple and Google Play Store
                 </li>
                 <li>
-                  Integrated <strong>Stripe Payment handling</strong> and <strong>Google Maps APIs</strong> for delivery tracking
+                  Integrated <strong>Stripe Payment handling</strong> and <strong>Google Maps APIs</strong> for delivery
+                  tracking
                 </li>
                 <li>
                   <strong>Built and deployed</strong> KargoROO’s informatic website:{' '}
@@ -105,7 +129,8 @@ const Experience = (props) => {
                   </a>
                 </li>
                 <li>
-                  <strong>Managed and organized</strong> team's engineering effort including managing Upwork teams and an intern
+                  <strong>Managed and organized</strong> team's engineering effort including managing Upwork teams and
+                  an intern
                 </li>
               </ul>
             </div>

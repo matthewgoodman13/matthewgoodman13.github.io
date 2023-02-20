@@ -20,7 +20,7 @@ const OnlineCourses = (props) => {
           <div className="card">
             <div className="imgBx" data-text="Harvard">
               {/* FROM FLATICON.COM */}
-              <Image className="img" src={require('./icons/harvard.svg')} /> 
+              <Image className="img" src={require('./icons/harvard.svg')} />
               <div className="subContent">
                 <p className="hours">100+ Hours</p>
                 <div className="skills">
@@ -93,7 +93,7 @@ const OnlineCourses = (props) => {
             </div>
           </div>
         </ScrollAnimation>
-        
+
         {/* <a href="https://www.flaticon.com/free-icons/process" title="process icons">Process icons created by Freepik - Flaticon</a>
          */}
 
@@ -106,7 +106,7 @@ const OnlineCourses = (props) => {
                 <div className="skills">
                   <p>Web Apps</p>
                   <p>Sockets</p>
-                  <p className='smaller'>Microservices</p>
+                  <p className="smaller">Microservices</p>
                 </div>
                 <div className="skills">
                   <p>Payments</p>
@@ -116,19 +116,58 @@ const OnlineCourses = (props) => {
             </div>
             <div className="content">
               <div className="titleComponent">
-                <h3>
-                  Go: 4 Udemy Courses
-                </h3>
+                <h3>Go: 4 Udemy Courses</h3>
                 <h5>Udemy</h5>
               </div>
               <p>
-                Completed 4 Udemy courses exploring the Go Programming Language and learning how to build web apps, microservices, socket systems, and testing.
+                Completed 4 Udemy courses exploring the Go Programming Language and learning how to build web apps,
+                microservices, socket systems, and testing.
               </p>
               <div className="links">
-                <a href="https://matthewgoodman.notion.site/Go-Udemy-Courses-a2ed2b0c005a4dab9d6bd3d7764448c4" target="_blank">
+                <a
+                  href="https://matthewgoodman.notion.site/Go-Udemy-Courses-a2ed2b0c005a4dab9d6bd3d7764448c4"
+                  target="_blank"
+                >
                   Info & Certificates
                 </a>
+              </div>
+            </div>
+          </div>
+        </ScrollAnimation>
 
+        <ScrollAnimation animateIn="animate__fadeIn" animateOnce>
+          <div className="card">
+            <div className="imgBx" data-text="RemixJS">
+              <Image className="img" src={require('./icons/mixer.png')} />
+              <div className="subContent">
+                <p className="hours">10 Hours</p>
+                <div className="skills">
+                  <p>Full Stack</p>
+                  <p>Auth</p>
+                </div>
+                <div className="skills">
+                  <p>Sessions</p>
+                  <p>Cookies</p>
+                  <p>CRUD</p>
+                </div>
+              </div>
+            </div>
+            <div className="content">
+              <div className="titleComponent">
+                <h3>RemixJS - The Practical Guide</h3>
+                <h5>Udemy</h5>
+              </div>
+              <p>
+                Learned RemixJS, a React-based fullstack framework that allows you to quickly build web apps by having
+                frontend and backend code work seamlessly together.
+              </p>
+              <div className="links">
+                <a href="https://www.udemy.com/certificate/UC-2c6b8e30-b038-40f8-bff2-fd54ed461c17/" target="_blank">
+                  Certificate
+                </a>
+                <a href="https://github.com/matthewgoodman13/remix-expenses" target="_blank">
+                  GitHub Repo
+                </a>
               </div>
             </div>
           </div>

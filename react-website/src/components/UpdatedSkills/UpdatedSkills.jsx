@@ -19,7 +19,9 @@ const Skills = (props) => {
               <div className="cardContent">
                 <div className="col1">
                   <div className="skillContainer">
-                    <h5><u>Languages</u></h5>
+                    <h5>
+                      <u>Languages</u>
+                    </h5>
                     {/* <p>
                     JavaScript, Golang, Python, Java, C, C++, Bash
                     API
@@ -36,7 +38,9 @@ const Skills = (props) => {
                     {/* <ProgressBar now={80} className="lightblue" /> */}
                   </div>
                   <div className="skillContainer">
-                    <h5><u>Frontend Development</u></h5>
+                    <h5>
+                      <u>Frontend Development</u>
+                    </h5>
                     {/* <p>
                     JavaScript ES6, TypeScript, ReactJS, Redux, Bootstrap, Ionic Framework, Bootstrap, SemanticUI, UI/UX Design, HTML,CSS, SCSS, LessCSS, Pug, Google Maps APIs
                     API
@@ -61,14 +65,18 @@ const Skills = (props) => {
                     {/* <ProgressBar now={80} className="lightblue" /> */}
                   </div>
                   <div className="skillContainer">
-                    <h5><u>Backend Development</u></h5>
+                    <h5>
+                      <u>Backend Development</u>
+                    </h5>
                     {/* <p>NodeJS, ExpressJS, MongoDB, SQL, DynamoDB, AWS Lambda, SocketIO, Stripe Payment Integration, Flask</p> */}
                     <div className="skill-pill-bar">
                       <p className="skill-pill gold">NodeJS</p>
                       <p className="skill-pill gold">ExpressJS</p>
                       <p className="skill-pill gold">MongoDB</p>
+                      <p className="skill-pill gold">RemixJS</p>
                       <p className="skill-pill gold">MariaDB</p>
                       <p className="skill-pill gold">SQL</p>
+                      <p className="skill-pill gold">Prisma</p>
                       <p className="skill-pill gold">AWS DynamoDB</p>
                       <p className="skill-pill gold">AWS Lambda</p>
                       <p className="skill-pill gold">SocketIO</p>
@@ -79,7 +87,9 @@ const Skills = (props) => {
                     {/* <ProgressBar now={65} className="gold" /> */}
                   </div>
                   <div className="skillContainer">
-                    <h5><u>Cloud & Hosting</u></h5>
+                    <h5>
+                      <u>Cloud & Hosting</u>
+                    </h5>
                     {/* <p>Amazon Web Services, DigitalOcean, Google Cloud Platform, Firebase</p> */}
                     <div className="skill-pill-bar">
                       <p className="skill-pill lightgreen">Amazon Web Services</p>
@@ -93,7 +103,9 @@ const Skills = (props) => {
                 </div>
                 <div className="col2">
                   <div className="skillContainer">
-                    <h5><u>Data Science</u></h5>
+                    <h5>
+                      <u>Data Science</u>
+                    </h5>
                     {/* Data Science: Python, Pandas, Jupyter, Bokeh, BeautifulSoup, AWS */}
                     <div className="skill-pill-bar">
                       <p className="skill-pill purple">Python</p>
@@ -101,13 +113,14 @@ const Skills = (props) => {
                       <p className="skill-pill purple">Jupyter</p>
                       <p className="skill-pill purple">Bokeh</p>
                       <p className="skill-pill purple">BeautifulSoup</p>
-                      <p className="skill-pill purple">AWS</p>
                     </div>
 
                     {/* <ProgressBar now={65} className="gold" /> */}
                   </div>
                   <div className="skillContainer">
-                    <h5><u>Mobile Development</u></h5>
+                    <h5>
+                      <u>Mobile Development</u>
+                    </h5>
                     {/* <p>Android & iOS via Ionic Framework, Deployment via Ionic Appflow, Adalo</p> */}
                     <div className="skill-pill-bar">
                       <p className="skill-pill green">Android & iOS via Ionic Framework</p>
@@ -117,29 +130,33 @@ const Skills = (props) => {
                     {/* <ProgressBar now={55} className="green" /> */}
                   </div>
                   <div className="skillContainer">
-                    <h5><u>Software Tools</u></h5>
+                    <h5>
+                      <u>Software Tools</u>
+                    </h5>
                     {/* <p>Kubernetes, Git, GitHub, JUnit</p> */}
                     <div className="skill-pill-bar">
                       <p className="skill-pill magenta">Kubernetes</p>
                       <p className="skill-pill magenta">Git</p>
                       <p className="skill-pill magenta">GitHub</p>
-                      <p className="skill-pill magenta">JUnit</p>                     
+                      <p className="skill-pill magenta">JUnit</p>
                     </div>
                     {/* <ProgressBar now={55} className="green" /> */}
                   </div>
                   <div className="skillContainer">
-                    <h5><u>Other Experience With</u></h5>
+                    <h5>
+                      <u>Other Experience With</u>
+                    </h5>
                     {/* <p>ROS (Robotics), OCaml</p> */}
                     <div className="skill-pill-bar">
                       <p className="skill-pill orange">ROS (Robotics)</p>
-                      <p className="skill-pill orange">OCaml</p>                 
+                      <p className="skill-pill orange">OCaml</p>
                     </div>
                     {/* <ProgressBar now={55} className="green" /> */}
                   </div>
                   <div className="otherSkillInfo">
-                  <p>Spoken Languages:</p>
-                  <p className="more">English (Native), French (Intermediate)</p>
-                </div>
+                    <p>Spoken Languages:</p>
+                    <p className="more">English (Native), French (Intermediate)</p>
+                  </div>
                 </div>
               </div>
             </div>
