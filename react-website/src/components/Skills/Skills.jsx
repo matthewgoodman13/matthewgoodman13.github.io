@@ -11,7 +11,7 @@ const Skills = (props) => {
       <div id="skills" className="anchor" />
       <div className="left">
         <div className="leftPanel">
-          <ScrollAnimation animateIn="animate__flipInX" animateOnce>
+          <ScrollAnimation animateIn={animation} animateOnce>
             <div className="skillCard">
               <div className="cardTitle">
                 <h4>Experience Using</h4>
@@ -41,7 +41,7 @@ const Skills = (props) => {
                     <p className="skill-pill lightblue">JQuery</p>
                     <p className="skill-pill lightblue">CSS</p>
                     <p className="skill-pill lightblue">SCSS</p>
-                    <p className="skill-pill lightblue">LessCSS</p> 
+                    <p className="skill-pill lightblue">LessCSS</p>
                     <p className="skill-pill lightblue">Google Maps API</p>
                   </div>
                   {/* <ProgressBar now={80} className="lightblue" /> */}
@@ -97,7 +97,7 @@ const Skills = (props) => {
           </ScrollAnimation>
         </div>
         <div className="rightPanel">
-          <ScrollAnimation animateIn="animate__flipInX" animateOnce>
+          <ScrollAnimation animateIn={animation} animateOnce>
             <div className="skillCard">
               <div className="cardTitle">
                 <h4>Coding & Technical Skills</h4>
@@ -158,7 +158,7 @@ const Skills = (props) => {
               </div>
             </div>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="animate__flipInX" animateOnce>
+          <ScrollAnimation animateIn={animation} animateOnce>
             <div className="skillCard horizontal">
               <div className="cardTitle">
                 <h4>Languages</h4>

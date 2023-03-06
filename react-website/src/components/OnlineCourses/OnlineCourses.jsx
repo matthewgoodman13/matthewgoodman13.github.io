@@ -13,6 +13,7 @@ const OnlineCourses = (props) => {
           <Image className="icon" src={require('./icons/programmingwhite.svg')} />
           <h1>Online Certificate Courses</h1>
         </div>
+        <p className="subtitle-totalhrs">{'>'} 250hrs</p>
       </div>
 
       <div className="cards">
@@ -312,6 +313,40 @@ const OnlineCourses = (props) => {
                   target="_blank"
                 >
                   Certificate 2
+                </a>
+              </div>
+            </div>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="animate__fadeIn" animateOnce>
+          <div className="card">
+            <div className="imgBx" data-text="Clean Code">
+              <Image className="img" src={require('./icons/clean-coding.png')} />
+              <div className="subContent">
+                <p className="hours">6.5 Hours</p>
+                <div className="skills">
+                  <p>Naming</p>
+                  <p>Structures</p>
+                </div>
+                <div className="skills">
+                  <p>Objects</p>
+                  <p>Classes</p>
+                </div>
+              </div>
+            </div>
+            <div className="content">
+              <div className="titleComponent">
+                <h3>Writing Clean Code</h3>
+                <h5>Udemy</h5>
+              </div>
+              <p>Learned the principals of writing readable, understandable and therefore maintainable code </p>
+              <div className="links">
+                <a href="https://www.udemy.com/certificate/UC-1941bda1-5609-4fd3-9b79-60760db35592/" target="_blank">
+                  Certificate
+                </a>
+                <a href="https://www.udemy.com/course/writing-clean-code/" target="_blank">
+                  Course Site
                 </a>
               </div>
             </div>

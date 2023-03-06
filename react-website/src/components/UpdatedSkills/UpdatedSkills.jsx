@@ -6,12 +6,19 @@ import { Image, ProgressBar } from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const Skills = (props) => {
+  // Check if the user is on a mobile device
+  const isMobile = window.innerWidth <= 1200;
+
+  console.log('isMobile: ', isMobile);
+
+  const animation = isMobile ? 'animate__fadeIn' : 'animate__flipInX';
+
   return (
     <div id="skills" className="UpdatedSkills">
       <div id="skills" className="anchor" />
       <div className="left">
         <div className="leftPanel">
-          <ScrollAnimation animateIn="animate__flipInX" animateOnce>
+          <ScrollAnimation animateIn={animation} animateOnce>
             <div className="skillCard">
               <div className="cardTitle">
                 <h4>Skills</h4>
