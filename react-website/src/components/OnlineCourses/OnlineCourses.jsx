@@ -103,7 +103,7 @@ const OnlineCourses = (props) => {
             <div className="imgBx" data-text="Go">
               <Image className="img" src={require('./icons/go.png')} />
               <div className="subContent">
-                <p className="hours">50+ Hours</p>
+                <p className="hours">40+ Hours</p>
                 <div className="skills">
                   <p>Web Apps</p>
                   <p>Sockets</p>
