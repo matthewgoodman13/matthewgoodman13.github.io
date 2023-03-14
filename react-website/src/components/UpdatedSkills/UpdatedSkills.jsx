@@ -35,6 +35,7 @@ const Skills = (props) => {
                   </p> */}
                     <div className="skill-pill-bar">
                       <p className="skill-pill lightblue">JavaScript</p>
+                      <p className="skill-pill lightblue">TypeScript</p>
                       <p className="skill-pill lightblue">Go</p>
                       <p className="skill-pill lightblue">Python</p>
                       <p className="skill-pill lightblue">Java</p>
@@ -83,12 +84,16 @@ const Skills = (props) => {
                       <p className="skill-pill gold">RemixJS</p>
                       <p className="skill-pill gold">MariaDB</p>
                       <p className="skill-pill gold">SQL</p>
+                      <p className="skill-pill gold">PostgresDB</p>
+                      <p className="skill-pill gold">RabbitMQ</p>
                       <p className="skill-pill gold">Prisma</p>
                       <p className="skill-pill gold">AWS DynamoDB</p>
                       <p className="skill-pill gold">AWS Lambda</p>
-                      <p className="skill-pill gold">SocketIO</p>
-                      <p className="skill-pill gold">Stripe Payment Integration</p>
+                      <p className="skill-pill gold">Websockets</p>
                       <p className="skill-pill gold">Flask</p>
+                      <p className="skill-pill gold">RPC, gRPC</p>
+                      <p className="skill-pill gold">Authentication with JWT, Sessions, Cookies</p>
+                      <p className="skill-pill gold">Stripe Payment Integration</p>
                     </div>
 
                     {/* <ProgressBar now={65} className="gold" /> */}
@@ -99,8 +104,8 @@ const Skills = (props) => {
                     </h5>
                     {/* <p>Amazon Web Services, DigitalOcean, Google Cloud Platform, Firebase</p> */}
                     <div className="skill-pill-bar">
-                      <p className="skill-pill lightgreen">Amazon Web Services</p>
                       <p className="skill-pill lightgreen">DigitalOcean</p>
+                      <p className="skill-pill lightgreen">Amazon Web Services</p>
                       <p className="skill-pill lightgreen">Google Cloud Platform</p>
                       <p className="skill-pill lightgreen">Firebase</p>
                     </div>
@@ -133,6 +138,7 @@ const Skills = (props) => {
                       <p className="skill-pill green">Android & iOS via Ionic Framework</p>
                       <p className="skill-pill green">Deployment via Ionic Appflow</p>
                       <p className="skill-pill green">Adalo App Development</p>
+                      <p className="skill-pill green">Progressive Web Apps</p>
                     </div>
                     {/* <ProgressBar now={55} className="green" /> */}
                   </div>
@@ -142,9 +148,13 @@ const Skills = (props) => {
                     </h5>
                     {/* <p>Kubernetes, Git, GitHub, JUnit</p> */}
                     <div className="skill-pill-bar">
+                      <p className="skill-pill magenta">Docker</p>
                       <p className="skill-pill magenta">Kubernetes</p>
                       <p className="skill-pill magenta">Git</p>
                       <p className="skill-pill magenta">GitHub</p>
+                      <p className="skill-pill magenta">GitHub Actions</p>
+                      <p className="skill-pill magenta">Mailhog</p>
+                      <p className="skill-pill magenta">Jest</p>
                       <p className="skill-pill magenta">JUnit</p>
                     </div>
                     {/* <ProgressBar now={55} className="green" /> */}
