@@ -321,6 +321,43 @@ const OnlineCourses = (props) => {
 
         <ScrollAnimation animateIn="animate__fadeIn" animateOnce>
           <div className="card">
+            <div className="imgBx" data-text="Jest">
+              <Image className="img" src={require('./icons/test.png')} />
+              <div className="subContent">
+                <p className="hours">11 Hours</p>
+                <div className="skills">
+                  <p>Jest</p>
+                  <p>Unit Tests</p>
+                </div>
+                <div className="skills">
+                  <p>TDD</p>
+                  <p>Mocks</p>
+                  <p>Spies</p>
+                </div>
+              </div>
+            </div>
+            <div className="content">
+              <div className="titleComponent">
+                <h3>Jest Unit Testing for TS & NodeJS Devs</h3>
+                <h5>Udemy</h5>
+              </div>
+              <p>
+                Learned TypeScript unit testing (with mocks), integration testing, React TypeScript testing with Jest
+              </p>
+              <div className="links">
+                <a href="https://www.udemy.com/certificate/UC-a9a44685-0e54-496f-af24-d1716d4849c5/" target="_blank">
+                  Certificate
+                </a>
+                <a href="https://www.udemy.com/course/unit-testing-typescript-nodejs/" target="_blank">
+                  Course Site
+                </a>
+              </div>
+            </div>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="animate__fadeIn" animateOnce>
+          <div className="card">
             <div className="imgBx" data-text="Clean Code">
               <Image className="img" src={require('./icons/clean-coding.png')} />
               <div className="subContent">
