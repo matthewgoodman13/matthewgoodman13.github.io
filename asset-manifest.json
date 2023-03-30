@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.e7586e47.chunk.css",
-    "main.js": "/static/js/main.2adaf19d.chunk.js",
-    "main.js.map": "/static/js/main.2adaf19d.chunk.js.map",
+    "main.js": "/static/js/main.bc61bf5e.chunk.js",
+    "main.js.map": "/static/js/main.bc61bf5e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b06cb177.js",
     "runtime-main.js.map": "/static/js/runtime-main.b06cb177.js.map",
     "static/css/2.8f2139e4.chunk.css": "/static/css/2.8f2139e4.chunk.css",
-    "static/js/2.e7b01ba8.chunk.js": "/static/js/2.e7b01ba8.chunk.js",
-    "static/js/2.e7b01ba8.chunk.js.map": "/static/js/2.e7b01ba8.chunk.js.map",
+    "static/js/2.ba6b9d48.chunk.js": "/static/js/2.ba6b9d48.chunk.js",
+    "static/js/2.ba6b9d48.chunk.js.map": "/static/js/2.ba6b9d48.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2d3f3dbfb1ed1e1b49e01d2c5bdef488.js": "/precache-manifest.2d3f3dbfb1ed1e1b49e01d2c5bdef488.js",
+    "precache-manifest.3c1408cf0fc1a4fe5ce4aad908ceda2b.js": "/precache-manifest.3c1408cf0fc1a4fe5ce4aad908ceda2b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8f2139e4.chunk.css.map": "/static/css/2.8f2139e4.chunk.css.map",
     "static/css/main.e7586e47.chunk.css.map": "/static/css/main.e7586e47.chunk.css.map",
-    "static/js/2.e7b01ba8.chunk.js.LICENSE.txt": "/static/js/2.e7b01ba8.chunk.js.LICENSE.txt",
+    "static/js/2.ba6b9d48.chunk.js.LICENSE.txt": "/static/js/2.ba6b9d48.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Oswald-SemiBold.c8ff3929.ttf",
     "static/media/Education.scss": "/static/media/sttpic.096f2180.jpg",
     "static/media/ai.svg": "/static/media/ai.690bc978.svg",
@@ -58,6 +58,7 @@
     "static/media/smartphone.svg": "/static/media/smartphone.adbe2dd8.svg",
     "static/media/smartteams.png": "/static/media/smartteams.599e0550.png",
     "static/media/snowboarding.png": "/static/media/snowboarding.9ddd9ae0.png",
+    "static/media/test.png": "/static/media/test.1f0148f0.png",
     "static/media/travelling.svg": "/static/media/travelling.f16a7bf7.svg",
     "static/media/vr.svg": "/static/media/vr.99026515.svg",
     "static/media/wave.svg": "/static/media/wave.8a10067e.svg",
@@ -67,8 +68,8 @@
   "entrypoints": [
     "static/js/runtime-main.b06cb177.js",
     "static/css/2.8f2139e4.chunk.css",
-    "static/js/2.e7b01ba8.chunk.js",
+    "static/js/2.ba6b9d48.chunk.js",
     "static/css/main.e7586e47.chunk.css",
-    "static/js/main.2adaf19d.chunk.js"
+    "static/js/main.bc61bf5e.chunk.js"
   ]
 }
