@@ -13,7 +13,7 @@ const OnlineCourses = (props) => {
           <Image className="icon" src={require('./icons/programmingwhite.svg')} />
           <h1>Online Certificate Courses</h1>
         </div>
-        <p className="subtitle-totalhrs">{'>'} 250hrs</p>
+        <p className="subtitle-totalhrs">{'>'} 300hrs</p>
       </div>
 
       <div className="cards">
@@ -138,6 +138,73 @@ const OnlineCourses = (props) => {
 
         <ScrollAnimation animateIn="animate__fadeIn" animateOnce>
           <div className="card">
+            <div className="imgBx" data-text="React">
+              <Image className="img" src={require('./icons/react.svg')} />
+              <div className="subContent">
+                <p className="hours">15 Hours</p>
+                <div className="skills">
+                  <p>ReactJS</p>
+                  <p>Redux</p>
+                  <p>Hooks</p>
+                  <p>Firebase</p>
+                </div>
+                <div className="skills"></div>
+              </div>
+            </div>
+            <div className="content">
+              <div className="titleComponent">
+                <h3>React: Front to Back</h3>
+                <h5>Udemy</h5>
+              </div>
+              <p>Learned React & Redux principles by building various projects alongside the Udemy course. </p>
+              <div className="links">
+                <a href="https://www.udemy.com/certificate/UC-N8PWMW9Q/" target="_blank">
+                  Certificate
+                </a>
+                <a href="https://www.udemy.com/course/modern-react-front-to-back/" target="_blank">
+                  Course Site
+                </a>
+              </div>
+            </div>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="animate__fadeIn" animateOnce>
+          <div className="card">
+            <div className="imgBx" data-text="Docker">
+              <Image className="img" src={require('./icons/docker.svg')} />
+              <div className="subContent">
+                <p className="hours">21.5 Hours</p>
+                <div className="skills">
+                  <p>Kubernetes</p>
+                  <p>Swarm</p>
+                  <p>Compose</p>
+                  <p>Dockerfile</p>
+                  <p>GH Actions</p>
+                </div>
+                <div className="skills"></div>
+              </div>
+            </div>
+            <div className="content">
+              <div className="titleComponent">
+                <h3>Docker Mastery with Kubernetes & Swarm</h3>
+                <h5>Udemy • Bret Fisher</h5>
+              </div>
+              <p>Learned to build, test, and deploy containers using both Swarm and Kubernetes from a Docker Captain</p>
+              <div className="links">
+                <a href="https://www.udemy.com/certificate/UC-7a1a51a9-fd9a-42b1-8fdf-dd0ab6fa9f67/" target="_blank">
+                  Certificate
+                </a>
+                <a href="https://www.udemy.com/course/docker-mastery/" target="_blank">
+                  Course Site
+                </a>
+              </div>
+            </div>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="animate__fadeIn" animateOnce>
+          <div className="card">
             <div className="imgBx" data-text="RemixJS">
               <Image className="img" src={require('./icons/mixer.png')} />
               <div className="subContent">
@@ -176,30 +243,31 @@ const OnlineCourses = (props) => {
 
         <ScrollAnimation animateIn="animate__fadeIn" animateOnce>
           <div className="card">
-            <div className="imgBx" data-text="React">
-              <Image className="img" src={require('./icons/react.svg')} />
+            <div className="imgBx" data-text="NodeJS">
+              <Image className="img" src={require('./icons/nodejs.svg')} />
               <div className="subContent">
-                <p className="hours">15 Hours</p>
+                <p className="hours">30 Hours</p>
                 <div className="skills">
-                  <p>ReactJS</p>
-                  <p>Redux</p>
-                  <p>Hooks</p>
-                  <p>Firebase</p>
+                  <p>NodeJS</p>
+                  <p>ExpressJS</p>
+                  <p>SQL</p>
+                  <p>MongoDB</p>
+                  <p>Routing</p>
                 </div>
                 <div className="skills"></div>
               </div>
             </div>
             <div className="content">
               <div className="titleComponent">
-                <h3>React: Front to Back</h3>
+                <h3>NodeJS - The Complete Guide</h3>
                 <h5>Udemy</h5>
               </div>
-              <p>Learned React & Redux principles by building various projects alongside the Udemy course. </p>
+              <p>Learned the NodeJS architecture by building small projects alongside the Udemy course.</p>
               <div className="links">
-                <a href="https://www.udemy.com/certificate/UC-N8PWMW9Q/" target="_blank">
-                  Certificate
-                </a>
-                <a href="https://www.udemy.com/course/modern-react-front-to-back/" target="_blank">
+                {/* <a href="https://www.udemy.com/certificate/UC-N8PWMW9Q/" target="_blank">
+                Certificate
+              </a> */}
+                <a href="https://www.udemy.com/course/nodejs-the-complete-guide/" target="_blank">
                   Course Site
                 </a>
               </div>
@@ -235,40 +303,6 @@ const OnlineCourses = (props) => {
                   Certificate
                 </a>
                 <a href="https://www.coursera.org/learn/build-a-computer/home/welcome" target="_blank">
-                  Course Site
-                </a>
-              </div>
-            </div>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="animate__fadeIn" animateOnce>
-          <div className="card">
-            <div className="imgBx" data-text="NodeJS">
-              <Image className="img" src={require('./icons/nodejs.svg')} />
-              <div className="subContent">
-                <p className="hours">30 Hours</p>
-                <div className="skills">
-                  <p>NodeJS</p>
-                  <p>ExpressJS</p>
-                  <p>SQL</p>
-                  <p>MongoDB</p>
-                  <p>Routing</p>
-                </div>
-                <div className="skills"></div>
-              </div>
-            </div>
-            <div className="content">
-              <div className="titleComponent">
-                <h3>NodeJS - The Complete Guide</h3>
-                <h5>Udemy</h5>
-              </div>
-              <p>Learned the NodeJS architecture by building small projects alongside the Udemy course.</p>
-              <div className="links">
-                {/* <a href="https://www.udemy.com/certificate/UC-N8PWMW9Q/" target="_blank">
-                Certificate
-              </a> */}
-                <a href="https://www.udemy.com/course/nodejs-the-complete-guide/" target="_blank">
                   Course Site
                 </a>
               </div>

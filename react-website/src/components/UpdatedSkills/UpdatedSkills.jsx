@@ -150,6 +150,7 @@ const Skills = (props) => {
                     <div className="skill-pill-bar">
                       <p className="skill-pill magenta">Docker</p>
                       <p className="skill-pill magenta">Kubernetes</p>
+                      <p className="skill-pill magenta">Swarm</p>
                       <p className="skill-pill magenta">Git</p>
                       <p className="skill-pill magenta">GitHub</p>
                       <p className="skill-pill magenta">GitHub Actions</p>
