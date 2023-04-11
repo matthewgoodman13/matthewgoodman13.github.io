@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="512px"
+    style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="comp_x5F_97-docker">
+        <g>
+            <path
+                d="    M476.441,231.582c-10.35-6.972-34.21-9.487-52.537-6.036c-2.371-17.249-12.003-32.27-29.538-45.782l-10.062-6.685l-6.685,10.062    c-13.225,19.98-16.817,57.641-2.658,79.346c-6.252,3.377-18.545,7.978-34.786,7.688H27.757    c-6.252,36.512,4.169,79.201,31.624,111.758c26.663,31.551,66.623,47.579,118.872,47.579c113.124,0,196.851-52.104,236.021-146.76    c15.381,0.288,48.584,0.073,65.618-32.483c1.078-1.797,4.743-9.488,6.107-12.291L476.441,231.582z"
+                style="fill:none;stroke:#ffffff;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" />
+            <rect height="50"
+                style="fill:none;stroke:#ffffff;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;"
+                width="50" x="270" y="182.487" />
+            <rect height="50"
+                style="fill:none;stroke:#ffffff;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;"
+                width="50" x="220" y="182.487" />
+            <rect height="50"
+                style="fill:none;stroke:#ffffff;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;"
+                width="50" x="170" y="182.487" />
+            <rect height="50"
+                style="fill:none;stroke:#ffffff;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;"
+                width="50" x="220" y="132.487" />
+            <rect height="50"
+                style="fill:none;stroke:#ffffff;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;"
+                width="50" x="220" y="82.487" />
+            <rect height="50"
+                style="fill:none;stroke:#ffffff;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;"
+                width="50" x="170" y="132.487" />
+            <rect height="50"
+                style="fill:none;stroke:#ffffff;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;"
+                width="50" x="120" y="132.487" />
+            <rect height="50"
+                style="fill:none;stroke:#ffffff;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;"
+                width="50" x="120" y="182.487" />
+            <rect height="50"
+                style="fill:none;stroke:#ffffff;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;"
+                width="50" x="70" y="182.487" />
+        </g>
+    </g>
+    <g id="Layer_1" />
+</svg>
